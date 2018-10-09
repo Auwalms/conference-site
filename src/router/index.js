@@ -4,6 +4,7 @@ import Buefy from "buefy";
 import Homepage from "@/components/home";
 
 import "buefy/dist/buefy.css";
+import "../assets/stylesheet/style.css"
 
 Vue.use(Router);
 Vue.use(Buefy);
