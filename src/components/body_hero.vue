@@ -9,6 +9,12 @@
         </div>    
     </div>
 </template>
+<script>
+export default {
+    
+}
+</script>
+
 <style>
 .hero-body #img{
     max-width: 320px;

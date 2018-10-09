@@ -2,7 +2,7 @@
     <div>
         <div id="cover" class="hero is-fullheight">
            <div class="hero-overlay"></div>
-           <navbar/> 
+           <Navbar/> 
            <Body_hero/>
         </div> 
     </div> 
@@ -10,7 +10,7 @@
 
 <script>
 import Navbar from "./navbar";
-import Body_hero from "./body-hero";
+import Body_hero from "./body_hero";
 import $ from "jquery";
 export default {
     name: "homepage",
@@ -20,7 +20,8 @@ export default {
         }
     },
     components : {
-        Navbar
+        Navbar,
+        Body_hero
     }
 }
 
