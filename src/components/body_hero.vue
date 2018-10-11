@@ -27,5 +27,14 @@ export default {
     font-size: 28px;
     font-weight: 100;
 }
+@media screen and (max-width: 768px) {
+
+    .hero-body #img{
+        max-width: 240px;
+    }
+    .hero-body .title{
+        font-size: 22px;
+    }
+}
 </style>
 

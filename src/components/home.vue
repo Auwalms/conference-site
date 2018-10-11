@@ -4,13 +4,16 @@
            <div class="hero-overlay"></div>
            <Navbar/> 
            <Body_hero/>
-        </div> 
+        </div>
+        <Event_info/>
+        
     </div> 
 </template>
 
 <script>
 import Navbar from "./navbar";
 import Body_hero from "./body_hero";
+import Event_info from "./event_info";
 import $ from "jquery";
 export default {
     name: "homepage",
@@ -21,7 +24,8 @@ export default {
     },
     components : {
         Navbar,
-        Body_hero
+        Body_hero,
+        Event_info
     }
 }
 
@@ -41,7 +45,7 @@ $(function () {
     -o-background-size: cover;
     background-size: cover;
     height: 100vh;
-    box-shadow: 0 5px 5px -3px gray;
+    box-shadow: 0 5px 5px -4px gray;
   }  
     
 
@@ -61,7 +65,5 @@ $(function () {
     max-width: none !important;
     width: 100%; 
 }
-
-
 
 </style>
