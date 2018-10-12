@@ -8,18 +8,18 @@
                     <div class="level event_info_wrapper">
                         <div class="level-left event_link">
                             <a target="_blank" href="https://www.youtube.com/watch?v=mEbXofvoia0" class="level-item ">
-                                <span class="is-vertical event_info_link" >EXPLORE TRAILER 2016</span> 
+                                <span class="is-vertical event_info_link" >EXPLORE TRAILER 2016</span>
                                 <b-icon icon="arrow-right-bold-circle" class="event_link_icon"></b-icon>
-                            </a> 
+                            </a>
                         </div>
                     </div>
                     <p class="description">The event is the biggest conference of its type in the region, our team work hard to make DevFest to be the best place for experience sharing in a phenomenal atmosphere.</p>
                     <div class="level event_info_wrapper">
                         <div class="level-left event_link">
                             <a target="_blank" href="https://www.youtube.com/watch?v=V_SMgQovLdM" class="level-item ">
-                                <span class="is-vertical event_info_link" >WATCH RECAP 2015</span> 
+                                <span class="is-vertical event_info_link" >WATCH RECAP 2015</span>
                                 <b-icon icon="arrow-right-bold-circle" class="event_link_icon"></b-icon>
-                            </a> 
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@
             <div class="column is-half-tablet statistics-block">
                 <div class="columns is-mobile">
                     <div class="column is-6">
-                        <div class=" stat-numbers"><h1>300</h1></div>
+                        <div class=" stat-numbers"><h1>600</h1></div>
                         <div class=" stat-name"><p>Attendees</p></div>
                     </div>
                     <div class="column is-6">
@@ -46,61 +46,67 @@
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>
     </div>
 </template>
 
 <style>
-.content{
+.content {
     margin-top: 0px;
     padding: 32px;
     padding-bottom: 0px;
 }
 
-.content h1, h2, h3, h4, h5, h6, p{
+.content h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     color: #000;
     font-weight: inherit;
 }
-.event-info{
+.event-info {
     padding-right: 40px;
 }
-.event-info .title{
+.event-info .title {
     margin-bottom: 24px;
     padding: 0;
     font-size: 32px;
 }
-.event-info .description{
+.event-info .description {
     font-size: 16px;
     text-align: justify;
     line-height: 24px;
 }
 
-.event_link{
+.event_link {
     padding: 10px;
     font-size: 14px;
 }
-.event_link a{
-    color: #673AB7;
+.event_link a {
+    color: #673ab7;
 }
-.event_link:hover{
+.event_link:hover {
     background: lightgray;
     -webkit-transition: background 0.5s; /* Safari */
     transition: background 0.5s;
 }
-.event_info_link:hover{
+.event_info_link:hover {
     margin-right: 8px;
     -webkit-transition: margin-right 0.5s; /* Safari */
     transition: margin-right 0.5s;
 }
-.event_link_icon{
-    margin-left: 8px;      
+.event_link_icon {
+    margin-left: 8px;
 }
-.event_link_icon:hover{
-    margin-left: 16px; 
+.event_link_icon:hover {
+    margin-left: 16px;
     -webkit-transition: margin-left 0.5s; /* Safari */
-    transition: margin-left 0.5s;     
+    transition: margin-left 0.5s;
 }
-.stat-numbers{
+.stat-numbers {
     font-size: 30px;
 }
 .stat-numbers::after {
@@ -108,13 +114,13 @@
     display: block;
     height: 2px;
     width: 64px;
-    background-color: #673AB7;
+    background-color: #673ab7;
 }
-@media screen and (max-width: 768px){
-    .content{
+@media screen and (max-width: 768px) {
+    .content {
         padding: 15px;
     }
-    .event-info{
+    .event-info {
         padding-right: 0px;
     }
 }
