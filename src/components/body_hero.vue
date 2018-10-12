@@ -9,11 +9,6 @@
         </div>    
     </div>
 </template>
-<script>
-export default {
-    
-}
-</script>
 
 <style>
 .hero-body #img{
@@ -23,12 +18,11 @@ export default {
 }
 .hero-body .title{
     font-family: "Product Sans", arial, sans-serif;
-    color: white;
+    color: #fff;
     font-size: 28px;
     font-weight: 100;
 }
 @media screen and (max-width: 768px) {
-
     .hero-body #img{
         max-width: 240px;
     }
@@ -37,4 +31,3 @@ export default {
     }
 }
 </style>
-

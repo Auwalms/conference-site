@@ -1,7 +1,7 @@
 <template>
-    <div class="container content">
-        <div class="columns">
-            <div class="column is-6 ">
+    <div class="content">
+        <div class="columns is-tablet">
+            <div class="column is-half-tablet">
                 <div class="event-info">
                     <h1 class="title">What you need to know, before you ask.</h1>
                     <p class="description">GDG DevFest North Central Nigeria brings together world class experts in Android, Web and Cloud technologies to Abuja for a days of sessions, workshops and showcases.</p>
@@ -24,10 +24,10 @@
                     </div>
                 </div>
             </div>
-            <div class="column is-6 statistics-block">
+            <div class="column is-half-tablet statistics-block">
                 <div class="columns is-mobile">
                     <div class="column is-6">
-                        <div class=" stat-numbers"><h1>900</h1></div>
+                        <div class=" stat-numbers"><h1>300</h1></div>
                         <div class=" stat-name"><p>Attendees</p></div>
                     </div>
                     <div class="column is-6">
@@ -37,11 +37,11 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column is-6">
-                        <div class=" stat-numbers"><h1>50</h1></div>
+                        <div class=" stat-numbers"><h1>20</h1></div>
                         <div class=" stat-name"><p>Sessions</p></div>
                     </div>
                     <div class="column is-6">
-                        <div class=" stat-numbers"><h1>4</h1></div>
+                        <div class=" stat-numbers"><h1>2</h1></div>
                         <div class=" stat-name"><p>Tracks</p></div>
                     </div>
                 </div>
@@ -51,10 +51,12 @@
 </template>
 
 <style>
-    .content{
-    margin-top: 50px;
+.content{
+    margin-top: 0px;
     padding: 32px;
+    padding-bottom: 0px;
 }
+
 .content h1, h2, h3, h4, h5, h6, p{
     color: #000;
     font-weight: inherit;
@@ -107,5 +109,13 @@
     height: 2px;
     width: 64px;
     background-color: #673AB7;
+}
+@media screen and (max-width: 768px){
+    .content{
+        padding: 15px;
+    }
+    .event-info{
+        padding-right: 0px;
+    }
 }
 </style>
