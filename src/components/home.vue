@@ -1,19 +1,20 @@
 <template>
-    <div>
+    <div class="container-fluid">
         <div id="cover" class="hero is-fullheight">
            <div class="hero-overlay"></div>
            <Navbar/> 
            <Body_hero/>
         </div>
         <Event_info/>
-        
-    </div> 
+        <Speakers/>
+    </div>
 </template>
 
 <script>
 import Navbar from "./navbar";
 import Body_hero from "./body_hero";
 import Event_info from "./event_info";
+import Speakers from "./speakers";
 import $ from "jquery";
 export default {
     name: "homepage",
@@ -25,7 +26,8 @@ export default {
     components : {
         Navbar,
         Body_hero,
-        Event_info
+        Event_info,
+        Speakers
     }
 }
 

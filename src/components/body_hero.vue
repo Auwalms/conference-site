@@ -9,11 +9,6 @@
         </div>    
     </div>
 </template>
-<script>
-export default {
-    
-}
-</script>
 
 <style>
 .hero-body #img{
@@ -28,7 +23,6 @@ export default {
     font-weight: 100;
 }
 @media screen and (max-width: 768px) {
-
     .hero-body #img{
         max-width: 240px;
     }
@@ -37,4 +31,3 @@ export default {
     }
 }
 </style>
-
