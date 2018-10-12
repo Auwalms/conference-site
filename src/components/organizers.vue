@@ -6,23 +6,19 @@
                 <div class="columns is-mobile">
                     <div class="column is-6">
                         <figure class="image is-128x128">
-                            <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-                            <div >
-                                <img src="../assets/gdg-lviv.svg" alt="" class="gdg-logo">
-                            </div>
+                            <img class="is-rounded" src="../assets/people/auwal.jpg">
+                            <h3>Auwal MS</h3>
+                            <p class="organizers_desc">Lafia, Nigeria</p>
                         </figure>
-                        <h3 style="font-size: 24px;">Abdullahi Aliyu</h3>
-                        <p class="organizers_desc">Creator of Fuelio app. Fuelio blah blah...</p>
+                        
                     </div>
                     <div class="column is-6">
                         <figure class="image is-128x128">
-                            <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-                            <div >
-                                <img src="../assets/gdg-lviv.svg" alt="" class="gdg-logo">
-                            </div>
+                            <img class="is-rounded" src="../assets/people/bulama.jpg">
+                            <h3>Bulama Yusuf</h3>
+                            <p class="organizers_desc">Abuja, Nigeria</p>
                         </figure>
-                        <h3 style="font-size: 24px;">Abdullahi Aliyu</h3>
-                        <p class="organizers_desc">Creator of Fuelio app. Fuelio blah blah...</p>
+                        
                     </div>
                 </div>
             </div>
@@ -30,30 +26,24 @@
                 <div class="columns is-mobile">
                     <div class="column is-6">
                         <figure class="image is-128x128">
-                            <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-                            <div >
-                                <img src="../assets/gdg-lviv.svg" alt="" class="gdg-logo">
-                            </div>
-                        </figure>
-                        <h3 style="font-size: 24px;">Abdullahi Aliyu</h3>
-                        <p class="organizers_desc">Creator of Fuelio app. Fuelio blah blah...</p>
+                            <img class="is-rounded" src="../assets/people/abdullahi.jpeg">
+                            <h3>Abdullahi Aliyu</h3>
+                            <p class="organizers_desc">Lafia, Nigeria</p>
+                        </figure>   
                     </div>
                     <div class="column is-6">
                         <figure class="image is-128x128">
-                            <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-                            <div >
-                                <img src="../assets/gdg-lviv.svg" alt="" class="gdg-logo">
-                            </div>
-                        </figure>
-                        <h3 style="font-size: 24px;">Abdullahi Aliyu</h3>
-                        <p class="organizers_desc">Creator of Fuelio app. Fuelio blah blah...</p>
+                            <img class="is-rounded" src="../assets/people/umar.png">
+                            <h3>Umar Saidu Auna</h3>
+                            <p class="organizers_desc">Minna, Nigeria</p>
+                        </figure>    
                     </div>
                 </div>
             </div>
         </div>
         <div class="level event_info_wrapper">
             <div class="level-left event_link">
-                <a target="_blank" href="https://www.youtube.com/watch?v=mEbXofvoia0" class="level-item ">
+                <a target="_blank" href="#" class="level-item ">
                     <span class="is-vertical event_info_link" >VIEW ALL SPEAKERS</span> 
                     <b-icon icon="arrow-right-bold-circle" class="event_link_icon"></b-icon>
                 </a> 
@@ -66,13 +56,12 @@
 .content figure {
     margin: auto;
     text-align: center;
+    margin-bottom: 60px;
 }
 figure .gdg-logo{
     height: 16px;
 }
-.content figure:not(:last-child) {
-    margin-bottom: 40px;
-}
+
 .content h3, .content .organizers_desc{
     margin: auto;
     font-family: "roboto", sans-serif;
@@ -83,9 +72,14 @@ figure .gdg-logo{
     font-weight: normal;
     margin-top: 30px;
 }
-
+.content h3{
+    font-size: 20px;
+}
+.content h3:not(:first-child){
+    margin-top: 0px;
+}
 .content .organizers_desc{
-    font-size: 14px;
+    font-size: 12px;
     color: #4d4d4d;
 }
 .event_link{
@@ -117,6 +111,9 @@ figure .gdg-logo{
     .image.is-128x128 {
         height: 80px;
         width: 80px;
+    }
+    .content h3{
+        font-size: 14px;
     }
 }
 </style>

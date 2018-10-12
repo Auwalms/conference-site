@@ -18,7 +18,7 @@
 }
 .hero-body .title{
     font-family: "Product Sans", arial, sans-serif;
-    color: white;
+    color: #fff;
     font-size: 28px;
     font-weight: 100;
 }

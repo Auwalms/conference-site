@@ -4,9 +4,10 @@
            <div class="hero-overlay"></div>
            <Navbar/> 
            <Body_hero/>
+           
         </div>
-        <Event_info/>
-        <Speakers/>
+        <event_info/>
+        <organizers/>
     </div>
 </template>
 
@@ -14,7 +15,7 @@
 import Navbar from "./navbar";
 import Body_hero from "./body_hero";
 import Event_info from "./event_info";
-import Speakers from "./speakers";
+import Organizers from "./organizers";
 import $ from "jquery";
 export default {
     name: "homepage",
@@ -27,7 +28,7 @@ export default {
         Navbar,
         Body_hero,
         Event_info,
-        Speakers
+        Organizers
     }
 }
 
@@ -67,5 +68,6 @@ $(function () {
     max-width: none !important;
     width: 100%; 
 }
+
 
 </style>

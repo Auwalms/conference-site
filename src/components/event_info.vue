@@ -27,7 +27,7 @@
             <div class="column is-half-tablet statistics-block">
                 <div class="columns is-mobile">
                     <div class="column is-6">
-                        <div class=" stat-numbers"><h1>900</h1></div>
+                        <div class=" stat-numbers"><h1>300</h1></div>
                         <div class=" stat-name"><p>Attendees</p></div>
                     </div>
                     <div class="column is-6">
@@ -37,11 +37,11 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column is-6">
-                        <div class=" stat-numbers"><h1>50</h1></div>
+                        <div class=" stat-numbers"><h1>20</h1></div>
                         <div class=" stat-name"><p>Sessions</p></div>
                     </div>
                     <div class="column is-6">
-                        <div class=" stat-numbers"><h1>4</h1></div>
+                        <div class=" stat-numbers"><h1>2</h1></div>
                         <div class=" stat-name"><p>Tracks</p></div>
                     </div>
                 </div>
