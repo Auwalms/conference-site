@@ -8,6 +8,7 @@
         </div>
         <event_info/>
         <organizers/>
+        <chapters/>
     </div>
 </template>
 
@@ -16,6 +17,7 @@ import Navbar from "./navbar";
 import Body_hero from "./body_hero";
 import Event_info from "./event_info";
 import Organizers from "./organizers";
+import Chapters from "./chapters";
 import $ from "jquery";
 export default {
     name: "homepage",
@@ -28,7 +30,8 @@ export default {
         Navbar,
         Body_hero,
         Event_info,
-        Organizers
+        Organizers,
+        Chapters
     }
 }
 
@@ -68,6 +71,5 @@ $(function () {
     max-width: none !important;
     width: 100%; 
 }
-
 
 </style>
