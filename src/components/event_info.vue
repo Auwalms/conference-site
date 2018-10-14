@@ -64,7 +64,7 @@ h4,
 h5,
 h6,
 p {
-    color: #000;
+    color: #4d4d4d;
     font-weight: inherit;
 }
 .event-info {
