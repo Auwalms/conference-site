@@ -1,5 +1,5 @@
 <template>
-    <div class=" content">
+    <div class="content">
         <h1 class="title">ORGANIZERS</h1>
         <div class="columns">
             <div class="column is-4">
