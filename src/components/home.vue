@@ -11,6 +11,9 @@
         <chapters/>
         <eventphotos/>
         <registration/>
+        <latestnews/>
+        <eventmap/>
+        <sponsors/>
     </div>
 </template>
 
@@ -22,6 +25,9 @@ import Organizers from "./organizers";
 import Chapters from "./chapters";
 import Eventphotos from './eventphotos'
 import Registration from "./registration";
+import Latestnews from "./latestnews";
+import Eventmap from "./map";
+import Sponsors from "./sponsors";
 import $ from "jquery";
 export default {
     name: "homepage",
@@ -37,7 +43,10 @@ export default {
         Organizers,
         Chapters,
         Eventphotos,
-        Registration
+        Registration,
+        Latestnews,
+        Eventmap,
+        Sponsors
     }
 }
 
