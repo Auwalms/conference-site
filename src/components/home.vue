@@ -9,6 +9,8 @@
         <event_info/>
         <organizers/>
         <chapters/>
+        <eventphotos/>
+        <registration/>
     </div>
 </template>
 
@@ -18,6 +20,8 @@ import Body_hero from "./body_hero";
 import Event_info from "./event_info";
 import Organizers from "./organizers";
 import Chapters from "./chapters";
+import Eventphotos from './eventphotos'
+import Registration from "./registration";
 import $ from "jquery";
 export default {
     name: "homepage",
@@ -31,7 +35,9 @@ export default {
         Body_hero,
         Event_info,
         Organizers,
-        Chapters
+        Chapters,
+        Eventphotos,
+        Registration
     }
 }
 
