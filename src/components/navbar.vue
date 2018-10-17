@@ -35,8 +35,8 @@
                     <div class="navbar-item">
                         <div class="field is-grouped">
                                 <p class="control">
-                                    <a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.7.1/bulma-0.7.1.zip">
-                                        <span>BUY TICKET</span>
+                                    <a class="button is-purple" href="https://github.com/jgthms/bulma/releases/download/0.7.1/bulma-0.7.1.zip">
+                                        <span>REGISTER</span>
                                     </a>
                                 </p>
                             <p class="control">
