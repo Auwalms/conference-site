@@ -5,5 +5,9 @@
         <img src="../assets/logos/google.svg" alt="" style="width: 140px; ">
         <h3 class="title" style="margin-top: 50px">PARTNERS</h3>
         <img src="../assets/logos/wecode.png" alt="" style="width: 140px; ">
+        <br>
+        <br>
+        <br>
+        <a class="button is-info">BECOME A SPONSOR</a>
     </section>
 </template>
