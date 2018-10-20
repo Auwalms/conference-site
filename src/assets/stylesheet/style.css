@@ -278,24 +278,6 @@ figure .gdg-logo {
   padding: 0;
   height: inherit;
 }
-.big-photo {
-  background: url(../event/2017_1.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.small-photo {
-  height: 50%;
-}
-
-#small_one {
-  background: url(../event/2017_2.jpg) no-repeat center;
-  background-size: cover;
-}
-
-#small_two {
-  background: url(../event/2017_3.jpg) no-repeat center;
-  background-size: cover;
-}
 
 .photo-block .photo-block-overlay {
   position: absolute;
@@ -334,7 +316,6 @@ figure .gdg-logo {
 .contact-us {
   padding-top: 1.2rem;
 }
-
 footer {
   padding: 3rem 1.5rem 1rem !important;
 }
@@ -342,4 +323,7 @@ footer {
 footer .column a {
   color: #4d4d4d;
   font-size: 12px;
+}
+footer .social-span {
+  padding: 1rem 1.5rem;
 }
