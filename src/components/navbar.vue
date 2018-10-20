@@ -11,11 +11,11 @@
                     <span></span>
                 </div>
             </div>
-        
+
             <div id="navbarExampleTransparentExample" class="navbar-menu">
                 <div class="navbar-start">
                 </div>
-        
+
                 <div class="navbar-end">
                     <a class="navbar-item active" href="/">
                         HOME
@@ -29,9 +29,9 @@
                     <a class="navbar-item" href="#">
                         TEAM
                     </a>
-                    <a class="navbar-item" href="#">
+                    <!-- <a class="navbar-item" href="#">
                         BLOG
-                    </a>
+                    </a> -->
                     <div class="navbar-item">
                         <div class="field is-grouped">
                                 <p class="control">
