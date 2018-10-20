@@ -42,14 +42,19 @@
                         <p><a target="_blank" href="https://www.youtube.com/watch?v=V_SMgQovLdM&t=28s">DevFest 2015</a></p>
                         <p><a target="_blank" href="https://www.youtube.com/watch?v=kqa8PDzMonI">DevFest 2016</a></p>
                         <p><a target="_blank" href="https://photos.app.goo.gl/ExTDoMdQujsDwV5p1">DevFest 2017</a></p>
+
+                        <div class="contact-us">
+                            <h3>Contact Us</h3>
+                            <p><a href="mailto:info@ncdevfest.com">info@ncdevfest.com</a></p>
+                        </div>
+
                     </div>
-                    <div class="column">
-                        <h3>Contact Us</h3>
-                        <p><a href="mailto:info@ncdevfest.com">info@ncdevfest.com</a></p>
-                    </div>
+                    <!-- <div class="column">
+
+                    </div> -->
                 </div>
                 <hr>
-                <p class="has-text-right">Based on <a href="https://github.com/gdg-x/hoverboard">Project Hoverboard</a></p>
+                <p class="has-text-right">Built with <span class="has-text-danger">❤</span> based on <a href="https://github.com/gdg-x/hoverboard">Project Hoverboard</a></p>
             </div>
         </footer>
 </template>

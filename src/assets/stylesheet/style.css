@@ -331,7 +331,13 @@ figure .gdg-logo {
     visibility: hidden;
   }
 }
+.contact-us {
+  padding-top: 1.2rem;
+}
 
+footer {
+  padding: 3rem 1.5rem 1rem !important;
+}
 /* Pagefooter component styles */
 footer .column a {
   color: #4d4d4d;
