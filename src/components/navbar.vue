@@ -3,7 +3,7 @@
         <div class="container">
             <div class="navbar-brand">
                 <a class="navbar-item" href="/">
-                    <img src="../assets/logo-monochrome.svg" alt="Bulma: a modern CSS framework based on Flexbox" width="150" height="32">
+                    <img src="../assets/logo-monochrome.svg" alt="GDG Devfest 2018 Logo" width="150" height="32">
                 </a>
                 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
                     <span></span>
@@ -35,12 +35,12 @@
                     <div class="navbar-item">
                         <div class="field is-grouped">
                                 <p class="control">
-                                    <a class="button is-link is-register" href="https://github.com/jgthms/bulma/releases/download/0.7.1/bulma-0.7.1.zip">
+                                    <a class="button is-link is-register" href="#">
                                         <span>REGISTER</span>
                                     </a>
                                 </p>
                             <p class="control">
-                                <a class="bd-tw-button button is-info" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Yoo I'm attending North Central DEVFEST18 &amp;hashtags=ncDevFest18&amp;">
+                                <a class="bd-tw-button button is-info" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://www.twitter.com" target="_blank" href="https://twitter.com/intent/tweet?text=Yoo I'm attending North Central Devfest Abuja, you can join me by visiting https://www.ncdevfest.com for more details. &amp;hashtags=DevFest18, Abuja, NCDevfest">
                                     <b-icon
                                         icon="twitter">
                                     </b-icon>
