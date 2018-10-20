@@ -36,29 +36,3 @@
     </div>
 </template>
 
-<style>
-.hero{
-    background: #673AB7;
-}
-
-.event_trailer{
-    padding: 10px;
-    font-size: 14px;
-}
-.event_trailer a{
-    color: #673AB7;
-}
-.event_info_link:hover{
-    margin-right: 8px;
-    -webkit-transition: margin-right 0.3s; /* Safari */
-    transition: margin-right 0.3s;
-}
-.event_link_icon{
-    margin-left: 8px;      
-}
-.event_link_icon:hover{
-    margin-left: 16px; 
-    -webkit-transition: margin-left 0.3s; /* Safari */
-    transition: margin-left 0.3s;     
-}
-</style>

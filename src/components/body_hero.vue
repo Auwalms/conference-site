@@ -9,25 +9,3 @@
         </div>    
     </div>
 </template>
-
-<style>
-.hero-body #img{
-    max-width: 320px;
-    width: 100%;
-    height: 100%;
-}
-.hero-body .title{
-    font-family: "Product Sans", arial, sans-serif;
-    color: #fff;
-    font-size: 28px;
-    font-weight: 100;
-}
-@media screen and (max-width: 768px) {
-    .hero-body #img{
-        max-width: 240px;
-    }
-    .hero-body .title{
-        font-size: 22px;
-    }
-}
-</style>

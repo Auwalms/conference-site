@@ -2,7 +2,7 @@
     <nav class="navbar is-fixed-top ">
         <div class="container">
             <div class="navbar-brand">
-                <a class="navbar-item" href="https://bulma.io">
+                <a class="navbar-item" href="/">
                     <img src="../assets/logo-monochrome.svg" alt="Bulma: a modern CSS framework based on Flexbox" width="150" height="32">
                 </a>
                 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
@@ -17,7 +17,7 @@
                 </div>
         
                 <div class="navbar-end">
-                    <a class="navbar-item active" href="https://bulma.io/">
+                    <a class="navbar-item active" href="/">
                         HOME
                     </a>
                     <a class="navbar-item" href="#">
@@ -35,7 +35,7 @@
                     <div class="navbar-item">
                         <div class="field is-grouped">
                                 <p class="control">
-                                    <a class="button is-purple" href="https://github.com/jgthms/bulma/releases/download/0.7.1/bulma-0.7.1.zip">
+                                    <a class="button is-link is-register" href="https://github.com/jgthms/bulma/releases/download/0.7.1/bulma-0.7.1.zip">
                                         <span>REGISTER</span>
                                     </a>
                                 </p>
@@ -84,45 +84,3 @@
 
 	});
 </script>
-<style>
-.navbar {
-    background-color: transparent;
-    min-height: 65px;
-    -webkit-transition: background-color 1s; /* Safari */
-    transition: background-color 1s;
-}
-@media screen and (min-width: 1088px) {
-    .navbar-item {
-        color: #f5f5f5;
-        font-size: 14px;
-        font-weight: bold;
-    }
-    .navbar-item.active {
-    border-bottom: 2px solid #673AB7;
-}
-}
-
-.navbar-burger, .navbar-burger.is-active{
-    color: #fff;
-}
-.navbar-item img {
-max-height: 32px;
-}
-.navbar.scrolled {
-background-color: #fff;
--webkit-transition: background-color 1s; /* Safari */
-transition: background-color 1s;
-}
-.navbar.scrolled .navbar-item{
-color: gray;
-}
-
-.navbar.scrolled .navbar-burger{
-    color: gray;
-}
-	
-  
- 
-</style>
-
-
