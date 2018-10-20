@@ -333,7 +333,7 @@ figure .gdg-logo {
 }
 
 /* Pagefooter component styles */
-footer a{
+footer .column a{
     color: #4d4d4d;
     font-size: 12px;
 }
