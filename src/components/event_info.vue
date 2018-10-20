@@ -7,8 +7,8 @@
                     <p class="description">GDG DevFest North Central Nigeria brings together world class experts in Android, Web and Cloud technologies to Abuja for a days of sessions, workshops and showcases.</p>
                     <div class="level event_info_wrapper">
                         <div class="level-left event_link">
-                            <a target="_blank" href="https://www.youtube.com/watch?v=mEbXofvoia0" class="level-item ">
-                                <span class="is-vertical event_info_link" >EXPLORE TRAILER 2016</span>
+                            <a target="_blank" href="https://photos.app.goo.gl/ExTDoMdQujsDwV5p1" class="level-item ">
+                                <span class="is-vertical event_info_link" >PHOTOS FROM DEVFEST 2017</span>
                                 <b-icon icon="arrow-right-bold-circle" class="event_link_icon"></b-icon>
                             </a>
                         </div>
@@ -16,8 +16,8 @@
                     <p class="description">The event is the biggest conference of its type in the region, our team work hard to make DevFest to be the best place for experience sharing in a phenomenal atmosphere.</p>
                     <div class="level event_info_wrapper">
                         <div class="level-left event_link">
-                            <a target="_blank" href="https://www.youtube.com/watch?v=V_SMgQovLdM" class="level-item ">
-                                <span class="is-vertical event_info_link" >WATCH RECAP 2015</span>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=mEbXofvoia0" class="level-item ">
+                                <span class="is-vertical event_info_link" >EXPLORE TRAILER 2016</span>
                                 <b-icon icon="arrow-right-bold-circle" class="event_link_icon"></b-icon>
                             </a>
                         </div>
