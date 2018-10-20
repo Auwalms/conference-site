@@ -35,7 +35,7 @@
                     <div class="navbar-item">
                         <div class="field is-grouped">
                                 <p class="control">
-                                    <a class="button is-link is-register" href="https://github.com/jgthms/bulma/releases/download/0.7.1/bulma-0.7.1.zip">
+                                    <a class="button is-link is-register" href="#">
                                         <span>REGISTER</span>
                                     </a>
                                 </p>
