@@ -3,7 +3,7 @@
             <div class="content has-text-centered">
                 <span class="is-info">
                     SHARE &nbsp;&nbsp;
-                    <a  style="color: #DF312D" data-social-network="Google-plus" 
+                    <a  style="color: #DF312D" data-social-network="Google-plus"
                     target="_blank" href="https://plus.google.com/share">
                         <b-icon
                             icon="google-plus">
@@ -38,20 +38,18 @@
                         <p><a target="_blank" href="https://www.meetup.com/gdg-makurdi/">GDG Makurdi</a></p>
                     </div>
                     <div class="column">
-                        <h3>Explore Past DEVFESTs</h3> 
+                        <h3>Explore Past DEVFESTs</h3>
                         <p><a target="_blank" href="https://www.youtube.com/watch?v=V_SMgQovLdM&t=28s">DevFest 2015</a></p>
                         <p><a target="_blank" href="https://www.youtube.com/watch?v=kqa8PDzMonI">DevFest 2016</a></p>
                         <p><a target="_blank" href="https://photos.app.goo.gl/ExTDoMdQujsDwV5p1">DevFest 2017</a></p>
                     </div>
                     <div class="column">
                         <h3>Contact Us</h3>
-                        <p><a href="mailto:info@ncdevfest.com">info@ncdevfest.com</a></p>     
-                    </div> 
+                        <p><a href="mailto:info@ncdevfest.com">info@ncdevfest.com</a></p>
+                    </div>
                 </div>
                 <hr>
-                <div>
-                    <p>GDG Lafia &copy; 2018</p>
-                </div> 
-            </div>   
+                <p class="has-text-right">Based on <a href="https://github.com/gdg-x/hoverboard">Project Hoverboard</a></p>
+            </div>
         </footer>
 </template>

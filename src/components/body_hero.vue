@@ -1,11 +1,11 @@
 <template>
     <div class="hero-body">
         <div class="container has-text-centered">
-            <img class="title" id="img" alt="GDG DevFest Season 2018" src="../assets/logo.svg">
-            <div class="title">
-                North Central Nigeria. November 17, 2018 <br>
-                Be a hero. Be a GDG!
+            <img class="title" id="img" alt="GDG DevFest Season 2018 logo" src="../assets/logo.svg">
+            <div >
+                <p class="title">Abuja, Nigeria<br> November 24, 2018 </p>
+
             </div>
-        </div>    
+        </div>
     </div>
 </template>

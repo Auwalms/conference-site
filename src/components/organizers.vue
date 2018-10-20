@@ -1,6 +1,6 @@
 <template>
     <div class="content">
-        <h1 class="title">ORGANIZERS</h1>
+        <h1 class="title has-text-centered">ORGANIZERS</h1>
         <div class="columns">
             <div class="column is-4">
                 <div class="columns is-mobile">
@@ -8,7 +8,7 @@
                         <figure class="image is-128x128">
                             <img class="is-rounded" src="../assets/people/auwal.jpg">
                             <h3>Auwal MS</h3>
-                            <p class="organizers_desc">Lafia, Nigeria</p>
+                            <p class="organizers_desc">Lafia/Abuja, Nigeria</p>
                         </figure>
 
                     </div>
@@ -26,15 +26,15 @@
                 <div class="columns is-mobile">
                     <div class="column is-6">
                         <figure class="image is-128x128">
-                            <img class="is-rounded" src="../assets/people/abdullahi.jpeg">
-                            <h3>Abdullahi Aliyu</h3>
-                            <p class="organizers_desc">Lafia, Nigeria</p>
+                            <img class="is-rounded" src="../assets/people/farida.jpg">
+                            <h3>Farida Kabir</h3>
+                            <p class="organizers_desc">Abuja, Nigeria</p>
                         </figure>
                     </div>
                     <div class="column is-6">
                         <figure class="image is-128x128">
                             <img class="is-rounded" src="../assets/people/umar.png">
-                            <h3>Umar Saidu Auna</h3>
+                            <h3>Umar Auna</h3>
                             <p class="organizers_desc">Minna, Nigeria</p>
                         </figure>
                     </div>
@@ -45,15 +45,15 @@
                     <div class="column is-6">
                         <figure class="image is-128x128">
                             <img class="is-rounded" src="../assets/people/abdullahi.jpeg">
-                            <h3>Pius Aboyi</h3>
-                            <p class="organizers_desc">Makurdi, Nigeria</p>
+                            <h3>Usman Idris</h3>
+                            <p class="organizers_desc">Keffi, Nigeria</p>
                         </figure>
                     </div>
                     <div class="column is-6">
                         <figure class="image is-128x128">
                             <img class="is-rounded" src="../assets/people/farida.jpg">
-                            <h3>Farida Kabir</h3>
-                            <p class="organizers_desc">Abuja, Nigeria</p>
+                            <h3>Pius Aboyi</h3>
+                            <p class="organizers_desc">Makurdi, Nigeria</p>
                         </figure>
                     </div>
                 </div>
