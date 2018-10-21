@@ -1,9 +1,7 @@
 <template>
     <footer class="footer">
-            <div class="has-text-centered">
-                <span class="is-size-1 has-text-danger social-span">
-                    Be Social
-                </span>
+            <div class="content has-text-centered social-div">
+                 <h1 class="title">Be Social</h1>
                 <p>
                 Share on experience on <b-icon icon="twitter" alt="twitter logo" class="has-text-info"> </b-icon> and <b-icon icon="facebook" class="has-text-link" alt="facebook logo">
                         </b-icon> and remember to use our hashtags(<strong>#ncDevFest18 #DEVFEST18 #GDG</strong>).

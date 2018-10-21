@@ -316,14 +316,20 @@ figure .gdg-logo {
 .contact-us {
   padding-top: 1.2rem;
 }
-footer {
-  padding: 3rem 1.5rem 1rem !important;
+
+section.registration-section {
+  margin-top: 1rem;
 }
+
 /* Pagefooter component styles */
 footer .column a {
   color: #4d4d4d;
   font-size: 12px;
 }
-footer .social-span {
-  padding: 1rem 1.5rem;
+.footer {
+  padding: 3rem 1.5rem 1rem;
+}
+
+.content.has-text-centered.social-div {
+  padding-top: 0.2rem;
 }
