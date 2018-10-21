@@ -26,7 +26,7 @@
                     <a class="navbar-item" href="#">
                         SCHEDULES
                     </a>
-                    <a class="navbar-item" href="#">
+                    <a class="navbar-item" href="#/our-team">
                         TEAM
                     </a>
                     <!-- <a class="navbar-item" href="#">
