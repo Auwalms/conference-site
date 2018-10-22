@@ -4,7 +4,7 @@
             <div class="column is-half-tablet">
                 <div class="event-info">
                     <h1 class="title">What you need to know, before you ask.</h1>
-                    <p class="description">GDG DevFest North Central Nigeria brings together world class experts in Android, Web and Cloud technologies to Abuja for a days of sessions, workshops and showcases.</p>
+                    <p class="description">GDG DevFest North Central Nigeria brings together world class experts in Android, Web and Cloud technologies to Abuja for a day of sessions, workshops and showcases.</p>
                     <div class="level event_info_wrapper">
                         <div class="level-left event_link">
                             <a target="_blank" rel="noopener" href="https://photos.app.goo.gl/ExTDoMdQujsDwV5p1" class="level-item ">
@@ -13,7 +13,7 @@
                             </a>
                         </div>
                     </div>
-                    <p class="description">The event is the biggest conference of its type in the region, our team work hard to make DevFest to be the best place for experience sharing in a phenomenal atmosphere.</p>
+                    <p class="description">The event is the biggest conference of its type in the region, our team always work hard to make DevFest to be the best place for experience sharing in a phenomenal atmosphere.</p>
                     <div class="level event_info_wrapper">
                         <div class="level-left event_link">
                             <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=mEbXofvoia0" class="level-item ">
