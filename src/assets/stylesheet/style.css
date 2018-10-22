@@ -167,6 +167,13 @@ p {
   .event-info {
     padding-right: 0px;
   }
+  .stat-numbers,
+  .stat-name {
+    text-align: center;
+  }
+  .stat-numbers::after {
+    width: 8rem;
+  }
 }
 
 /* organizers component styles */
@@ -318,7 +325,7 @@ figure .gdg-logo {
 }
 
 section.registration-section {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 /* Pagefooter component styles */

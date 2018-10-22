@@ -51,7 +51,7 @@
                     </div>
                     <div class="column is-6">
                         <figure class="image is-128x128">
-                            <img class="is-rounded" src="../assets/people/farida.jpg" alt="Pius's picture">
+                            <img class="is-rounded" src="../assets/people/mfawa.png" alt="Pius's picture">
                             <h3>Pius Aboyi</h3>
                             <p class="organizers_desc">Makurdi, Nigeria</p>
                         </figure>

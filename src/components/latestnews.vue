@@ -4,33 +4,27 @@
             <div class="columns is-tablet">
                 <div class="column is-half-tablet">
                     <h4 class="title">
-                        <a href="" class="info">North Central DevFest 2017 Call for Papers</a>
+                        <a href="javascript:void(0)" class="info">North Central DevFest 2018 Call for Speakers</a>
                     </h4>
                     <p class="has-text-justified">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-                        officia deserunt mollit anim id est laborum...
+                        GDG North Central DevFest 2018 will be held on the 24th of November in
+                        Nigeria’s capital city of Abuja. It will be one of the biggest Google
+                        developer event in North Central Nigeria with about 600 participants.
+                        If you are a developer with a passion to inspire and disseminate knowledge,
+                        please submit a proposal at <a href="bit.ly/devfestabuja18-cfp">bit.ly/devfestabuja18-cfp</a>
                     </p>
-                    <a href="">Continue reading</a>
                 </div>
                 <div class="column is-half-tablet">
                     <h4 class="title">
-                        <a href="" class="info">North Central DevFest 2017 Announced</a>
+                        <a href="javascript:void(0)" class="info">North Central DevFest 2018 Announced</a>
                     </h4>
                     <p class="has-text-justified">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-                        officia deserunt mollit anim id est laborum...
+                        North Central GDGs are proud to announce the annual GDG DevFest for 2018.
+                        It is the largest Google related event in the North central region of Nigeria.
+                        The event will be held on the 24th November 2018 in Abuja. Come and join us for
+                        a fun filled event and benefit in the company of coders, hackers, geeks and experts
+                        in the tech industry.
                     </p>
-                    <a href="">Continue reading</a>
                 </div>
             </div>
         </section>

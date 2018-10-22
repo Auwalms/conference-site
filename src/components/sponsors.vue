@@ -8,6 +8,6 @@
         <br>
         <br>
         <br>
-        <a class="button is-info">BECOME A SPONSOR</a>
+        <a class="button is-info" href="https://bit.ly/sponsor-devfestabuja18">BECOME A SPONSOR</a>
     </section>
 </template>
