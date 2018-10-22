@@ -17,7 +17,7 @@
                 </div>
 
                 <div class="navbar-end">
-                    <a class="navbar-item active" href="/">
+                    <a class="navbar-item" href="/">
                         HOME
                     </a>
                     <a class="navbar-item" href="#">
