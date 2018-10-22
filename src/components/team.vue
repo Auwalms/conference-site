@@ -19,7 +19,7 @@
                   
             </div>
         </section>
-        <section class=" team-members-wrapper has-text-centered">
+        <section class="team-members-wrapper has-text-centered content">
             <div class="columns">
                 <div class="column ">
                     <div class="member-card">
@@ -31,7 +31,7 @@
                         </div>
                         <h1 style="font-size: 24px">Abdullahi Aliyu</h1>
                         <img class="gdg-logo" src="../assets/logos/gdg-logo.png" alt="">
-                        <p>Abuja, Nigeria</p>
+                        <p>Lafia, Nigeria</p>
                         <p>
                             <a  style="color: #4d4d4d; padding:5px" target="_blank" href="https://github.com/abbaxee">
                                 <b-icon
@@ -344,27 +344,3 @@ export default {
     }
 }
 </script>
-
-<style>
-.hero-foot h1{
-    color: #fff;
-    font-size: 30px
-}
-section.team-members-wrapper{
-    margin: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.member-card{
-    box-shadow:  0 0 2px 1px rgba(0, 0, 0, 0.14); font-weight: lighter;
-}
-.member-card-image{
-    padding: 10px;
-}
-.member-card figure{
-    margin:auto;
-}
-.member-card .gdg-logo{
-    width: 70px;
-}
-</style>
