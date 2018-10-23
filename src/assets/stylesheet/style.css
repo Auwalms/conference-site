@@ -333,7 +333,29 @@ figure .gdg-logo {
 }
 
 /* Pagefooter component styles */
-footer .column a {
-  color: #4d4d4d;
-  font-size: 12px;
+footer .column a{
+    color: #4d4d4d;
+    font-size: 12px;
+}
+
+/* Team page styles */
+.hero-foot h1{
+  color: #fff;
+  font-size: 30px
+}
+section.team-members-wrapper{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.member-card{
+  box-shadow:  0 0 2px 1px rgba(0, 0, 0, 0.14); font-weight: lighter;
+}
+.member-card-image{
+  padding: 10px;
+}
+.member-card figure{
+  margin:auto;
+}
+.member-card .gdg-logo{
+  width: 70px;
 }
