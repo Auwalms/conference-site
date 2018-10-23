@@ -9,7 +9,8 @@
             <!-- Hero content: will be in the middle -->
             <div class="hero-body">
                 <div class="container has-text-left">
-                    <p class="title">
+                    <img style="width: 200px;" id="team-img" src="../assets/logos/logo-white.svg" alt="">
+                    <p class="title">    
                         Meet the Team
                     </p>
                 </div>
@@ -40,20 +41,13 @@
                                     size="is-small">
                                 </b-icon>
                             </a>
-                        <a  style="color: #3B5998; padding:5px" data-social-network="Facebook"
-                        target="_blank" href="https://web.facebook.com/Abbarious">
-                            <b-icon
-                                icon="facebook"
-                                size="is-small">
-                            </b-icon>
-                        </a>
-                        <a class="is-info" style="padding:5px" data-social-network="Twitter" 
-                        target="_blank" href="https://twitter.com/abba_xee">
-                            <b-icon
-                                icon="twitter"
-                                size="is-small">
-                            </b-icon>
-                        </a>
+                            <a class="is-info" style="padding:5px" data-social-network="Twitter" 
+                            target="_blank" href="https://twitter.com/abba_xee">
+                                <b-icon
+                                    icon="twitter"
+                                    size="is-small">
+                                </b-icon>
+                            </a>
                         </p>
                         <br>
                     </div>    

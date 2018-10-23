@@ -3,7 +3,7 @@
         <div class="container">
             <div class="navbar-brand">
                 <a class="navbar-item" href="/">
-                    <img src="../assets/logo-monochrome.svg" alt="GDG Devfest 2018 Logo" width="150" height="32">
+                    <img src="../assets/logos/logo-monochrome.svg" alt="GDG Devfest 2018 Logo" width="150" height="32">
                 </a>
                 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
                     <span></span>
