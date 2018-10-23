@@ -20,6 +20,31 @@
                   
             </div>
         </section>
+        <section style="margin-top: 50px" class="hero is-light">
+            <!-- Hero content: will be in the middle -->
+            <div class="hero-body">
+                <div class="container">
+                    <div style="font-size: 14px" class=" has-text-justified">    
+                        <p> Google is known all around the world. Everyone is 'googling', 
+                            checking on 'maps' and communicating in 'gmail'. For simple 
+                            users, they are services that just works, but not for us. 
+                            Developers see much more: APIs, scalability issues, complex technology stacks. 
+                            And that is what GDG is about.
+                        </p>
+                        <br>
+                        <p>
+                            <a href="">GDG North CentralDevFest</a> - is open and volunteer geek community who create exciting 
+                            projects and share experience about Google technologies with a passion.
+                        </p>
+                        <br>
+                        <p>
+                            Our goal is to organize space to connect the best industry experts with our community audience to boost development of IT in Nigeria.  
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="team-members-wrapper has-text-centered content">
             <div class="columns">
                 <div class="column ">
