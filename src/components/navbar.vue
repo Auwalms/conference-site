@@ -23,7 +23,7 @@
                     <a class="navbar-item" href="#">
                         SPEAKERS
                     </a>
-                    <a class="navbar-item" href="#">
+                    <a class="navbar-item" href="#/schedule">
                         SCHEDULES
                     </a>
                     <a class="navbar-item" href="#/our-team">

@@ -47,6 +47,10 @@ body {
   }
 }
 
+.navbar-link:hover {
+  color: none;
+}
+
 .navbar-burger,
 .navbar-burger.is-active {
   color: #fff;
@@ -56,6 +60,7 @@ body {
 }
 .navbar.scrolled {
   background-color: #fff;
+  box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.4);
   -webkit-transition: background-color 1s; /* Safari */
   transition: background-color 1s;
 }
