@@ -54,7 +54,7 @@
                     </span>
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isImageModalActive = true">
+                    <div class="card card-wrapper" @click="isCardModalActive = true">
                         <div class="card-content">
                             <p class="schedule-title" >Attendance Registration & Check-in</p> 
                             <p>English/Hall A</p>   
@@ -77,7 +77,7 @@
                     </span>
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isImageModalActive = true">
+                    <div class="card card-wrapper" @click="isCardModalActive = true">
                         <div class="card-content">
                             <p class="schedule-title" >Networking</p> 
                             <p>English/Hall A</p>    
@@ -100,7 +100,7 @@
                     </span>
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isImageModalActive = true">
+                    <div class="card card-wrapper" @click="isCardModalActive = true">
                         <div class="card-content">
                             <p class="schedule-title" >Keynote</p> 
                             <p>English/Hall A</p>  
@@ -145,7 +145,7 @@
                     </span>
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isImageModalActive = true">
+                    <div class="card card-wrapper" @click="isCardModalActive = true">
                         <div class="card-content session-content">
                             <p class="schedule-title" >Kotlin, What's in it for Android Developers</p> 
                             <p>English / Intermediate / Hall A</p>      
@@ -173,7 +173,7 @@
                     
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isImageModalActive = true">
+                    <div class="card card-wrapper" @click="isCardModalActive = true">
                         <div class="card-content session-content">
                             <p class="schedule-title" >Place Detection Using Vision API</p> 
                             <p>English / Intermediate / Hall B</p>      
@@ -212,7 +212,7 @@
                     </span>
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isImageModalActive = true">
+                    <div class="card card-wrapper" @click="isCardModalActive = true">
                         <div class="card-content session-content">
                             <p class="schedule-title" >Faster Frontend Development with Vuejs</p> 
                             <p>English / Intermediate / Hall A</p>   
@@ -240,7 +240,7 @@
                     
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isImageModalActive = true">
+                    <div class="card card-wrapper" @click="isCardModalActive = true">
                         <div class="card-content session-content">
                             <p class="schedule-title" >Machine Learning at a Glance</p> 
                             <p>English / Intermediate / Hall B</p>       
@@ -278,7 +278,7 @@
                     </span>
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isImageModalActive = true">
+                    <div class="card card-wrapper" @click="isCardModalActive = true">
                         <div class="card-content">
                             <p class="schedule-title" >Lunch Break</p> 
                             <p>Hall A</p>    
@@ -297,7 +297,7 @@
                     </span>
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isImageModalActive = true">
+                    <div class="card card-wrapper" @click="isCardModalActive = true">
                         <div class="card-content session-content">
                             <p class="schedule-title" >Offline First and Mobile First: Moving From Website to Progressive Web App</p> 
                             <p>English / Intermediate / Hall A</p>      
@@ -325,7 +325,7 @@
                     
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isImageModalActive = true">
+                    <div class="card card-wrapper" @click="isCardModalActive = true">
                         <div class="card-content session-content">
                             <p class="schedule-title" >Let it Crash - Techniques for Building Highly Available Software</p> 
                             <p>English / Intermediate / Hall B</p>      
@@ -363,7 +363,7 @@
                     </span>
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isImageModalActive = true">
+                    <div class="card card-wrapper" @click="isCardModalActive = true">
                         <div class="card-content session-content">
                             <p class="schedule-title" >The Open Source Community</p> 
                             <p>English / Beginner / Hall A</p>     
@@ -390,7 +390,7 @@
                     </div>   
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isImageModalActive = true">
+                    <div class="card card-wrapper" @click="isCardModalActive = true">
                         <div class="card-content session-content">
                             <p class="schedule-title" >Moving to Kubernetes or not?</p> 
                             <p>English / Intermediate / Hall B</p>    
@@ -428,10 +428,10 @@
                     </span>
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isImageModalActive = true">
+                    <div class="card card-wrapper" @click="isCardModalActive = true">
                         <div class="card-content">
                             <p class="schedule-title" >Closing Remark</p> 
-                            <p>English/Hall A</p>    
+                            <p>English / Hall A</p>    
                         </div>
                     </div>
                 </div>
@@ -442,12 +442,69 @@
                 <img src="/static/img/placeholder-1280x960.png">
             </p>
         </b-modal>
+        <b-modal :active.sync="isCardModalActive" :width="640" scroll="keep">
+            <div class="card">
+                <div class="hero is-medium">
+                    <section class="hero is-medium speaker-wrapper-general ">
+                        <!-- Hero content: will be in the middle -->
+                        <div class="hero-body">
+                            <div class="container has-text-left">
+                                <img style="width: 150px;" id="team-img" src="../assets/logos/logo-white.svg" alt="">
+                                <p class="title">    
+                                    The Open Source Community
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="card-content" style="margin: -5px 24px">
+                    <h3> November 11, 1:30 - 2:00</h3>
+                    <h3>Hall A </h3> 
+                    <h3>Content Level: Beginner</h3> 
+                    <br>
+                    <p class="has-text-justified" style="font-size: 14px">In this talk, Prosper Otemuyiwa will unleash the fire and inspire developers to contribute to Open Source and it's ecosystem. Using Open Source tools is a no brainer for most of us developers, but do we have the right attitude and passion to support and contribute back to the community? Don't miss this talk to find out.</p>
+                    <hr>
+                    <h1 style="padding-bottom: 10px;">Speaker</h1>
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img class="is-rounded" src="../assets/people/prosper.jpg" alt="Image">
+                            </figure>
+                        </div>
+                        
+                        <div class="media-content">
+                            <p class="title is-6">Prosper Otemuyiwa</p>
+                            <p class="subtitle is-6">Auth0 / Nigeria</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </b-modal>
         <div>
             <Pagefooter/>
         </div>
     </div>
     
 </template>
+
+<script>
+import Navbar from "./navbar";
+import Pagefooter from "./footer";
+export default {
+    name: "team",
+    data(){
+        return {
+            msg: "Hello Team",
+            isImageModalActive: false,
+            isCardModalActive: false
+        }
+    },
+    components : {
+        Navbar,
+        Pagefooter
+    }
+}
+</script>
 
 <style>
 section.schedules-wrapper{
@@ -514,19 +571,19 @@ div.speaker-wrapper{
     line-height: 1;
 }
 
-div.speaker-wrapper-general{
+.speaker-wrapper-general{
     background: #737373; 
 }
 
-div.speaker-wrapper-cloud{
+.speaker-wrapper-cloud{
     background: #3f51b5; 
 }
 
-div.speaker-wrapper-web{
+.speaker-wrapper-web{
     background: #2196f3; 
 }
 
-div.speaker-wrapper-android{
+.speaker-wrapper-android{
     background: #78c257; 
 }
 
@@ -536,22 +593,3 @@ div.speaker-detail{
 }
 
 </style>
-
-
-<script>
-import Navbar from "./navbar";
-import Pagefooter from "./footer";
-export default {
-    name: "team",
-    data(){
-        return {
-            msg: "Hello Team",
-            isImageModalActive: false
-        }
-    },
-    components : {
-        Navbar,
-        Pagefooter
-    }
-}
-</script>
