@@ -364,3 +364,97 @@ section.team-members-wrapper{
 .member-card .gdg-logo{
   width: 70px;
 }
+
+/* schedule page styles */
+section.schedules-wrapper{
+  margin-top: 50px; 
+  padding:10px;
+}
+
+section.schedule-nav{
+  box-shadow: 0 5px 6px -3px rgba(0, 0, 0, 0.4); 
+  font-weight: lighter;
+}
+
+div.time{
+  color: #737373;
+}
+
+span.hour{
+  font-family: sans-serif; 
+  font-size: 56px; 
+  font-weight: 100; 
+  letter-spacing: -0.04em;
+}
+
+span.minute{
+  margin-left: -10px; 
+  font-size: 20px;
+}
+
+div.session-content{
+  min-height: 150px;
+}
+
+p.schedule-title{
+  font-size: 20px; 
+  color: #212121;
+  line-height: 22px;
+  padding-bottom: 5px;
+}
+
+small.time-taken{
+  padding: 24px;
+  font-size:12px;
+}
+
+small.track-tag{
+ font-size:11px;
+ padding: 5px 20px;
+}
+
+div.card-wrapper:hover{
+  box-shadow: 0 2px 3px rgba(0, 0 , 0, 0.7);
+  cursor: pointer;
+}
+.card{
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 
+              0 1px 5px 0 rgba(0, 0, 0, 0.12), 
+              0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  -webkit-transition: box-shadow 0.4s; /* Safari */
+  transition: box-shadow 0.4s;
+}
+
+div.speaker-wrapper{
+  color: #fff; 
+  line-height: 1;
+}
+
+.speaker-wrapper-general{
+  background: #737373; 
+}
+
+.speaker-wrapper-cloud{
+  background: #3f51b5; 
+}
+
+.speaker-wrapper-web{
+  background: #2196f3; 
+}
+
+.speaker-wrapper-android{
+  background: #78c257; 
+}
+
+div.speaker-detail{
+  display: flex; 
+  padding: 12px 24px;
+}
+
+.modal-img{
+  width: 150px;
+}
+
+div.modal-content{
+  margin: -5px 24px;
+}

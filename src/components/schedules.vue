@@ -54,7 +54,7 @@
                     </span>
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isCardModalActive = true">
+                    <div class="card card-wrapper" @click="isRegModalActive = true">
                         <div class="card-content">
                             <p class="schedule-title" >Attendance Registration & Check-in</p> 
                             <p>English/Hall A</p>   
@@ -77,7 +77,7 @@
                     </span>
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isCardModalActive = true">
+                    <div class="card card-wrapper" @click="isNetModalActive = true">
                         <div class="card-content">
                             <p class="schedule-title" >Networking</p> 
                             <p>English/Hall A</p>    
@@ -100,7 +100,7 @@
                     </span>
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isCardModalActive = true">
+                    <div class="card card-wrapper" @click="isKeynoteModalActive = true">
                         <div class="card-content">
                             <p class="schedule-title" >Keynote</p> 
                             <p>English/Hall A</p>  
@@ -145,7 +145,7 @@
                     </span>
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isCardModalActive = true">
+                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
                         <div class="card-content session-content">
                             <p class="schedule-title" >Kotlin, What's in it for Android Developers</p> 
                             <p>English / Intermediate / Hall A</p>      
@@ -169,11 +169,10 @@
                                 </div>
                             </div>   
                         </div>   
-                    </div>
-                    
+                    </div>   
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isCardModalActive = true">
+                    <div class="card card-wrapper" @click="isSessionTwoModalActive = true">
                         <div class="card-content session-content">
                             <p class="schedule-title" >Place Detection Using Vision API</p> 
                             <p>English / Intermediate / Hall B</p>      
@@ -212,7 +211,7 @@
                     </span>
                 </div>
                 <div class="column">
-                    <div class="card card-wrapper" @click="isCardModalActive = true">
+                    <div class="card card-wrapper" @click="isSessionThreeModalActive = true">
                         <div class="card-content session-content">
                             <p class="schedule-title" >Faster Frontend Development with Vuejs</p> 
                             <p>English / Intermediate / Hall A</p>   
@@ -437,19 +436,240 @@
                 </div>
             </div>
         </section>
-        <b-modal :active.sync="isImageModalActive">
-            <p class="image is-4by3">
-                <img src="/static/img/placeholder-1280x960.png">
-            </p>
-        </b-modal>
-        <b-modal :active.sync="isCardModalActive" :width="640" scroll="keep">
+
+        <!-- Modal Section -->
+
+        <!-- Registration modal -->
+        <b-modal :active.sync="isRegModalActive" :width="640" scroll="keep">
             <div class="card">
                 <div class="hero is-medium">
                     <section class="hero is-medium speaker-wrapper-general ">
                         <!-- Hero content: will be in the middle -->
                         <div class="hero-body">
                             <div class="container has-text-left">
-                                <img style="width: 150px;" id="team-img" src="../assets/logos/logo-white.svg" alt="">
+                                <img class="modal-img" src="../assets/logos/logo-white.svg" alt="">
+                                <p class="title">    
+                                    Event Registration and Check-ins
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="card-content modal-content">
+                    <h3> November 11, 08:00 - 09:00</h3>
+                    <h3>Hall A </h3> 
+                    <br>
+                    <p class="has-text-justified" style="font-size: 14px">Attendees Regitration and check-ins</p>
+                </div>
+            </div>
+        </b-modal>
+
+        <!-- Networking Modal -->
+        <b-modal :active.sync="isNetModalActive" :width="640" scroll="keep">
+            <div class="card">
+                <div class="hero is-medium">
+                    <section class="hero is-medium speaker-wrapper-general ">
+                        <!-- Hero content: will be in the middle -->
+                        <div class="hero-body">
+                            <div class="container has-text-left">
+                                <img class="modal-img" src="../assets/logos/logo-white.svg" alt="">
+                                <p class="title">    
+                                    Networking
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="card-content modal-content">
+                    <h3> November 11, 09:00 - 10:00</h3>
+                    <h3>Hall A </h3> 
+                    <br>
+                    <p class="has-text-justified" style="font-size: 14px">Networking</p>
+                </div>
+            </div>
+        </b-modal>
+
+        <!-- Keynote Modal -->
+        
+        <b-modal :active.sync="isKeynoteModalActive" :width="640" scroll="keep">
+            <div class="card">
+                <div class="hero is-medium">
+                    <section class="hero is-medium speaker-wrapper-general ">
+                        <!-- Hero content: will be in the middle -->
+                        <div class="hero-body">
+                            <div class="container ">
+                                <img class="modal-img" src="../assets/logos/logo-white.svg" alt="">
+                                <p class="title">    
+                                    Keynote
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="card-content modal-content">
+                    <h3> November 11, 1:30 - 2:00</h3>
+                    <h3>Hall A </h3>
+                    <br>
+                    <!-- <p class="has-text-justified" style="font-size: 14px">In this talk, Prosper Otemuyiwa will unleash the fire and inspire developers to contribute to Open Source and it's ecosystem. Using Open Source tools is a no brainer for most of us developers, but do we have the right attitude and passion to support and contribute back to the community? Don't miss this talk to find out.</p> -->
+                    <hr>
+                    <h1 style="padding-bottom: 10px;">Speakers</h1>
+                    <div class="media columns">
+                    <div class=" column">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img class="is-rounded" src="../assets/people/prosper.jpg" alt="Image">
+                            </figure>
+                        </div>
+                        
+                        <div class="media-content">
+                            <p class="title is-6">Aniedi Udo Ubong</p>
+                            <p class="subtitle is-6">Google / Nigeria</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img class="is-rounded" src="../assets/people/bulama.jpg" alt="Image">
+                            </figure>
+                        </div>
+                        
+                        <div class="media-content">
+                            <p class="title is-6">Bulama Yusuf</p>
+                            <p class="subtitle is-6">Intapps / Nigeria</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </b-modal>
+
+        <!-- session one modal -->
+        <b-modal :active.sync="isSessionOneModalActive" :width="640" scroll="keep">
+            <div class="card">
+                <div class="hero is-medium">
+                    <section class="hero is-medium speaker-wrapper-android ">
+                        <!-- Hero content: will be in the middle -->
+                        <div class="hero-body">
+                            <div class="container ">
+                                <img class="modal-img" src="../assets/logos/logo-white.svg" alt="">
+                                <p class="title">    
+                                    Kotlin What's In For Android Developers
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="card-content modal-content">
+                    <h3> November 11, 11:00 - 11:30</h3>
+                    <h3>Hall A </h3> 
+                    <h3>Content Level: Intermediate</h3> 
+                    <br>
+                    <p class="has-text-justified" style="font-size: 14px">In this talk, Prosper Otemuyiwa will unleash the fire and inspire developers to contribute to Open Source and it's ecosystem. Using Open Source tools is a no brainer for most of us developers, but do we have the right attitude and passion to support and contribute back to the community? Don't miss this talk to find out.</p>
+                    <hr>
+                    <h1 style="padding-bottom: 10px;">Speaker</h1>
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img class="is-rounded" src="../assets/people/prosper.jpg" alt="Image">
+                            </figure>
+                        </div>
+                        
+                        <div class="media-content">
+                            <p class="title is-6">Micheal Obi</p>
+                            <p class="subtitle is-6">GDG Abuja / Nigeria</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </b-modal>        
+
+        <!-- session two modal -->
+        <b-modal :active.sync="isSessionTwoModalActive" :width="640" scroll="keep">
+            <div class="card">
+                <div class="hero is-medium">
+                    <section class="hero is-medium speaker-wrapper-cloud ">
+                        <!-- Hero content: will be in the middle -->
+                        <div class="hero-body">
+                            <div class="container ">
+                                <img class="modal-img" src="../assets/logos/logo-white.svg" alt="">
+                                <p class="title">    
+                                    Place Detection with Vision API
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="card-content modal-content">
+                    <h3> November 11, 11:00 - 11:30</h3>
+                    <h3>Hall A </h3> 
+                    <h3>Content Level: Intermediate</h3> 
+                    <br>
+                    <p class="has-text-justified" style="font-size: 14px">In this talk, Prosper Otemuyiwa will unleash the fire and inspire developers to contribute to Open Source and it's ecosystem. Using Open Source tools is a no brainer for most of us developers, but do we have the right attitude and passion to support and contribute back to the community? Don't miss this talk to find out.</p>
+                    <hr>
+                    <h1 style="padding-bottom: 10px;">Speaker</h1>
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img class="is-rounded" src="../assets/people/prosper.jpg" alt="Image">
+                            </figure>
+                        </div>
+                        
+                        <div class="media-content">
+                            <p class="title is-6">Peter Adache</p>
+                            <p class="subtitle is-6">FlexiSaf Edusoft / Nigeria</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </b-modal>
+
+        <b-modal :active.sync="isSessionThreeModalActive" :width="640" scroll="keep">
+            <div class="card">
+                <div class="hero is-medium">
+                    <section class="hero is-medium speaker-wrapper-web ">
+                        <!-- Hero content: will be in the middle -->
+                        <div class="hero-body">
+                            <div class="container ">
+                                <img class="modal-img" src="../assets/logos/logo-white.svg" alt="">
+                                <p class="title">    
+                                    Faster frontend development with Vuejs
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="card-content modal-content">
+                    <h3> November 11, 11:30 - 12:00</h3>
+                    <h3>Hall A </h3> 
+                    <h3>Content Level: Intermediate</h3> 
+                    <br>
+                    <p class="has-text-justified" style="font-size: 14px">In this talk, Prosper Otemuyiwa will unleash the fire and inspire developers to contribute to Open Source and it's ecosystem. Using Open Source tools is a no brainer for most of us developers, but do we have the right attitude and passion to support and contribute back to the community? Don't miss this talk to find out.</p>
+                    <hr>
+                    <h1 style="padding-bottom: 10px;">Speaker</h1>
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img class="is-rounded" src="../assets/people/prosper.jpg" alt="Image">
+                            </figure>
+                        </div>
+                        
+                        <div class="media-content">
+                            <p class="title is-6">Muhammed Kabir</p>
+                            <p class="subtitle is-6">Code Craft  / Nigeria</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </b-modal>
+
+        <b-modal :active.sync="isCardModalActive" :width="640" scroll="keep">
+            <div class="card">
+                <div class="hero is-medium">
+                    <section class="hero is-medium speaker-wrapper-general ">
+                        <!-- Hero content: will be in the middle -->
+                        <div class="hero-body">
+                            <div class="container ">
+                                <img class="modal-img" src="../assets/logos/logo-white.svg" alt="">
                                 <p class="title">    
                                     The Open Source Community
                                 </p>
@@ -457,7 +677,7 @@
                         </div>
                     </section>
                 </div>
-                <div class="card-content" style="margin: -5px 24px">
+                <div class="card-content modal-content">
                     <h3> November 11, 1:30 - 2:00</h3>
                     <h3>Hall A </h3> 
                     <h3>Content Level: Beginner</h3> 
@@ -494,8 +714,13 @@ export default {
     name: "team",
     data(){
         return {
-            msg: "Hello Team",
-            isImageModalActive: false,
+            msg: "Schedules",
+            isRegModalActive: false,
+            isNetModalActive: false,
+            isKeynoteModalActive: false,
+            isSessionOneModalActive: false,
+            isSessionTwoModalActive: false,
+            isSessionThreeModalActive: false,
             isCardModalActive: false
         }
     },
@@ -506,90 +731,3 @@ export default {
 }
 </script>
 
-<style>
-section.schedules-wrapper{
-    margin-top: 50px; 
-    padding:10px;
-}
-
-section.schedule-nav{
-    box-shadow: 0 5px 6px -3px rgba(0, 0, 0, 0.4); 
-    font-weight: lighter;
-}
-
-div.time{
-    color: #737373;
-}
-
-span.hour{
-    font-family: sans-serif; 
-    font-size: 56px; 
-    font-weight: 100; 
-    letter-spacing: -0.04em;
-}
-
-span.minute{
-    margin-left: -10px; 
-    font-size: 20px;
-}
-
-div.session-content{
-    min-height: 150px;
-}
-
-p.schedule-title{
-    font-size: 20px; 
-    color: #212121;
-    line-height: 22px;
-    padding-bottom: 5px;
-}
-
-small.time-taken{
-    padding: 24px;
-    font-size:12px;
-}
-
-small.track-tag{
-   font-size:11px;
-   padding: 5px 20px;
-}
-
-div.card-wrapper:hover{
-    box-shadow: 0 2px 3px rgba(0, 0 , 0, 0.7);
-    cursor: pointer;
-}
-.card{
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 
-                0 1px 5px 0 rgba(0, 0, 0, 0.12), 
-                0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    -webkit-transition: box-shadow 0.4s; /* Safari */
-    transition: box-shadow 0.4s;
-}
-
-div.speaker-wrapper{
-    color: #fff; 
-    line-height: 1;
-}
-
-.speaker-wrapper-general{
-    background: #737373; 
-}
-
-.speaker-wrapper-cloud{
-    background: #3f51b5; 
-}
-
-.speaker-wrapper-web{
-    background: #2196f3; 
-}
-
-.speaker-wrapper-android{
-    background: #78c257; 
-}
-
-div.speaker-detail{
-    display: flex; 
-    padding: 12px 24px;
-}
-
-</style>
