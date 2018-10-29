@@ -3,6 +3,7 @@ import Router from "vue-router";
 import Buefy from "buefy";
 import Homepage from "@/components/home";
 import OurTeam from "@/components/team";
+import Schedule from "@/components/schedules"
 
 import "buefy/dist/buefy.css";
 import "../assets/stylesheet/style.css";
@@ -21,6 +22,11 @@ export default new Router({
       path: "/our-team",
       name: "OurTeam",
       component: OurTeam
+    },
+    {
+      path: "/schedule",
+      name: "Schedule",
+      component: Schedule
     }
   ]
 });
