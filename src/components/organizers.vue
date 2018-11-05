@@ -26,15 +26,15 @@
                 <div class="columns is-mobile">
                     <div class="column is-6">
                         <figure class="image is-128x128">
-                            <img class="is-rounded" src="../assets/people/abdullahi.jpeg">
-                            <h3>Abdullahi Aliyu</h3>
-                            <p class="organizers_desc">Lafia, Nigeria</p>
+                            <img class="is-rounded" src="../assets/people/farida.jpg">
+                            <h3>Farida Kabir</h3>
+                            <p class="organizers_desc">Abuja, Nigeria</p>
                         </figure>
                     </div>
                     <div class="column is-6">
                         <figure class="image is-128x128">
                             <img class="is-rounded" src="../assets/people/umar.png">
-                            <h3>Umar Saidu Auna</h3>
+                            <h3>Umar Auna</h3>
                             <p class="organizers_desc">Minna, Nigeria</p>
                         </figure>
                     </div>
@@ -44,16 +44,16 @@
                 <div class="columns is-mobile">
                     <div class="column is-6">
                         <figure class="image is-128x128">
-                            <img class="is-rounded" src="../assets/people/abdullahi.jpeg">
+                            <img class="is-rounded" src="../assets/people/pius.jpg">
                             <h3>Pius Aboyi</h3>
                             <p class="organizers_desc">Makurdi, Nigeria</p>
                         </figure>
                     </div>
                     <div class="column is-6">
                         <figure class="image is-128x128">
-                            <img class="is-rounded" src="../assets/people/farida.jpg">
-                            <h3>Farida Kabir</h3>
-                            <p class="organizers_desc">Abuja, Nigeria</p>
+                            <img class="is-rounded" src="../assets/people/usman.jpeg">
+                            <h3>Usman Idrees</h3>
+                            <p class="organizers_desc">Keffi, Nigeria</p>
                         </figure>
                     </div>
                 </div>
