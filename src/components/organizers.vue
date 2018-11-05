@@ -59,14 +59,14 @@
                 </div>
             </div>
         </div>
-        <div class="level event_info_wrapper">
+        <!-- <div class="level event_info_wrapper">
             <div class="level-left event_link">
                 <a target="_blank" href="#" class="level-item ">
-                    <span class="is-vertical event_info_link" >VIEW ALL SPEAKERS</span>
+                    <span class="is-vertical event_info_link" >VIEW ALL Or</span>
                     <b-icon icon="arrow-right-bold-circle" class="event_link_icon"></b-icon>
                 </a>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 

@@ -41,7 +41,7 @@
                         <div class=" stat-name"><p>Sessions</p></div>
                     </div>
                     <div class="column is-6">
-                        <div class=" stat-numbers"><h1>2</h1></div>
+                        <div class=" stat-numbers"><h1>3</h1></div>
                         <div class=" stat-name"><p>Tracks</p></div>
                     </div>
                 </div>
