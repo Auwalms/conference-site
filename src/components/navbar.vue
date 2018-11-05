@@ -20,13 +20,13 @@
                     <a class="navbar-item" href="/">
                         HOME
                     </a>
-                    <a class="navbar-item" href="#">
+                    <a class="navbar-item" href="/speakers">
                         SPEAKERS
                     </a>
-                    <a class="navbar-item" href="#/schedule">
+                    <a class="navbar-item" href="/schedule">
                         SCHEDULES
                     </a>
-                    <a class="navbar-item" href="#/our-team">
+                    <a class="navbar-item" href="/our-team">
                         TEAM
                     </a>
                     <!-- <a class="navbar-item" href="#">
