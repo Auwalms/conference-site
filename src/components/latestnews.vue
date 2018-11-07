@@ -11,7 +11,7 @@
                         Nigeria’s capital city of Abuja. It will be one of the biggest Google
                         developer event in North Central Nigeria with about 600 participants.
                         If you are a developer with a passion to inspire and disseminate knowledge,
-                        please submit a proposal at <a href="bit.ly/devfestabuja18-cfp">bit.ly/devfestabuja18-cfp</a>
+                        please submit a proposal at <a href="http://bit.ly/devfestabuja18-cfp ">http://bit.ly/devfestabuja18-cfp </a>
                     </p>
                 </div>
                 <div class="column is-half-tablet">

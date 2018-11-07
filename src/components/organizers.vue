@@ -33,7 +33,7 @@
                     </div>
                     <div class="column is-6">
                         <figure class="image is-128x128">
-                            <img class="is-rounded" src="../assets/people/umar.png">
+                            <img class="is-rounded" src="../assets/people/umar.jpg">
                             <h3>Umar Auna</h3>
                             <p class="organizers_desc">Minna, Nigeria</p>
                         </figure>

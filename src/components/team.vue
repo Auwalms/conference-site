@@ -59,7 +59,7 @@
                         <img class="gdg-logo" src="../assets/logos/gdg-logo.png" alt="">
                         <p>Abuja, Nigeria</p>
                         <p>
-                            <a  style="color: #4d4d4d; padding:5px" target="_blank" href="https://bitbucket.com/buls">
+                            <a  style="color: #4d4d4d; padding:5px" target="_blank" rel="noopener" href="https://bitbucket.com/buls">
                                 <b-icon
                                     pack="fab"
                                     icon="github"
@@ -67,7 +67,7 @@
                                 </b-icon>
                             </a>
                             <a class="is-info" style="padding:5px" data-social-network="Twitter"
-                            target="_blank" href="https://twitter.com/bulsyusuf">
+                            target="_blank" rel="noopener" href="https://twitter.com/bulsyusuf">
                                 <b-icon
                                     icon="twitter"
                                     size="is-small">
@@ -89,7 +89,7 @@
                         <img class="gdg-logo" src="../assets/logos/gdg-logo.png" alt="">
                         <p>Lafia-Abuja, Nigeria</p>
                         <p>
-                            <a  style="color: #4d4d4d; padding:5px" target="_blank" href="https://github.com/auwalms">
+                            <a  style="color: #4d4d4d; padding:5px" target="_blank" rel="noopener" href="https://github.com/auwalms">
                                 <b-icon
                                     pack="fab"
                                     icon="github"
@@ -97,7 +97,7 @@
                                 </b-icon>
                             </a>
                         <a class="is-info" style="padding:5px" data-social-network="Twitter"
-                        target="_blank" href="https://twitter.com/_auwalms">
+                        target="_blank" rel="noopener" href="https://twitter.com/_auwalms">
                             <b-icon
                                 icon="twitter"
                                 size="is-small">
@@ -119,7 +119,7 @@
                         <img class="gdg-logo" src="../assets/logos/gdg-logo.png" alt="">
                         <p>Minna, Nigeria</p>
                         <p>
-                            <a  style="color: #4d4d4d; padding:5px" target="_blank" href="https://github.com/android200">
+                            <a  style="color: #4d4d4d; padding:5px" target="_blank" rel="noopener" href="https://github.com/android200">
                                 <b-icon
                                     pack="fab"
                                     icon="github"
@@ -128,7 +128,7 @@
                             </a>
 
                         <a class="is-info" style="padding:5px" data-social-network="Twitter"
-                        target="_blank" href="https://twitter.com/umarauna">
+                        target="_blank" rel="noopener" href="https://twitter.com/umarauna">
                             <b-icon
                                 icon="twitter"
                                 size="is-small">
@@ -151,7 +151,7 @@
                         <p>Keffi, Nigeria</p>
                         <p>
                         <a class="is-info" style="padding:5px" data-social-network="Twitter"
-                        target="_blank" href="https://twitter.com/Majidadi_karami">
+                        target="_blank" rel="noopener" href="https://twitter.com/Majidadi_karami">
                             <b-icon
                                 icon="twitter"
                                 size="is-small">
@@ -175,7 +175,7 @@
                         <img class="gdg-logo" src="../assets/logos/gdg-logo.png" alt="">
                         <p>Makurdi, Nigeria</p>
                         <p>
-                            <a  style="color: #4d4d4d; padding:5px" target="_blank" href="https://github.com/buildbro">
+                            <a  style="color: #4d4d4d; padding:5px" target="_blank" rel="noopener" href="https://github.com/buildbro">
                                 <b-icon
                                     pack="fab"
                                     icon="github"
@@ -183,7 +183,7 @@
                                 </b-icon>
                             </a>
                         <a class="is-info" style="padding:5px" data-social-network="Twitter"
-                        target="_blank" href="https://twitter.com/ea_pius">
+                        target="_blank" rel="noopener" href="https://twitter.com/ea_pius">
                             <b-icon
                                 icon="twitter"
                                 size="is-small">
@@ -205,7 +205,7 @@
                         <img class="gdg-logo" src="../assets/logos/gdg-logo.png" alt="">
                         <p>Abuja, Nigeria</p>
                         <p>
-                            <a  style="color: #4d4d4d; padding:5px" target="_blank" href="https://github.com/reedahkh">
+                            <a  style="color: #4d4d4d; padding:5px" target="_blank" rel="noopener" href="https://github.com/reedahkh">
                                 <b-icon
                                     pack="fab"
                                     icon="github"
@@ -213,7 +213,7 @@
                                 </b-icon>
                             </a>
                         <a class="is-info" style="padding:5px" data-social-network="Twitter"
-                        target="_blank" href="https://twitter.com/reedahkh">
+                        target="_blank" rel="noopener" href="https://twitter.com/reedahkh">
                             <b-icon
                                 icon="twitter"
                                 size="is-small">
@@ -228,14 +228,14 @@
                         <br>
                         <div class="member-card-image">
                         <figure class="image is-128x128">
-                                <img class="is-rounded" src="../assets/people/abdullahi.jpeg">
+                                <img class="is-rounded" src="../assets/people/abdullahi.jpg">
                             </figure>
                         </div>
                         <h1 style="font-size: 24px">Abdullahi Aliyu</h1>
                         <img class="gdg-logo" src="../assets/logos/gdg-logo.png" alt="">
                         <p>Lafia, Nigeria</p>
                         <p>
-                            <a  style="color: #4d4d4d; padding:5px" target="_blank" href="https://github.com/abbaxee">
+                            <a  style="color: #4d4d4d; padding:5px" target="_blank" rel="noopener" href="https://github.com/abbaxee">
                                 <b-icon
                                     pack="fab"
                                     icon="github"
@@ -243,7 +243,7 @@
                                 </b-icon>
                             </a>
                         <a class="is-info" style="padding:5px" data-social-network="Twitter"
-                        target="_blank" href="https://twitter.com/abba_xee">
+                        target="_blank" rel="noopener" href="https://twitter.com/abba_xee">
                             <b-icon
                                 icon="twitter"
                                 size="is-small">
@@ -258,14 +258,14 @@
                         <br>
                         <div class="member-card-image">
                         <figure class="image is-128x128">
-                                <img class="is-rounded" src="../assets/people/mfawa.png">
+                                <img class="is-rounded" src="../assets/people/mfawa.jpg">
                             </figure>
                         </div>
                         <h1 style="font-size: 24px">Mfawa Alfred Onen</h1>
                         <img class="gdg-logo" src="../assets/logos/gdg-logo.png" alt="">
                         <p>Abuja, Nigeria</p>
                         <p>
-                            <a  style="color: #4d4d4d; padding:5px" target="_blank" href="https://github.com/muffycompo">
+                            <a  style="color: #4d4d4d; padding:5px" target="_blank" rel="noopener" href="https://github.com/muffycompo">
                                 <b-icon
                                     pack="fab"
                                     icon="github"
@@ -273,7 +273,7 @@
                                 </b-icon>
                             </a>
                         <a class="is-info" style="padding:5px" data-social-network="Twitter"
-                        target="_blank" href="https://twitter.com/muffycompo">
+                        target="_blank" rel="noopener" href="https://twitter.com/muffycompo">
                             <b-icon
                                 icon="twitter"
                                 size="is-small">
@@ -290,7 +290,7 @@
                         <br>
                         <div class="member-card-image">
                         <figure class="image is-128x128">
-                                <img class="is-rounded" src="../assets/people/farouq.png">
+                                <img class="is-rounded" src="../assets/people/farouq.jpg">
                             </figure>
                         </div>
                         <h1 style="font-size: 24px">Farouq Rabo Agbo</h1>
@@ -298,7 +298,7 @@
                         <p>Keffi, Nigeria</p>
                         <p>
                         <a class="is-info" style="padding:5px" data-social-network="Twitter"
-                        target="_blank" href="https://twitter.com/AFE933">
+                        target="_blank" rel="noopener" href="https://twitter.com/AFE933">
                             <b-icon
                                 icon="twitter"
                                 size="is-small">
@@ -316,11 +316,11 @@
                                 <img class="is-rounded" src="../assets/people/amama.jpg">
                             </figure>
                         </div>
-                        <h1 style="font-size: 24px">Amama Moses Ansalem</h1>
+                        <h1 style="font-size: 24px">Amama Moses Anslem</h1>
                         <img class="gdg-logo" src="../assets/logos/gdg-logo.png" alt="">
                         <p>Makurdi, Nigeria</p>
                         <p>
-                            <a  style="color: #4d4d4d; padding:5px" target="_blank" href="https://github.com/TherealAMA">
+                            <a  style="color: #4d4d4d; padding:5px" target="_blank" rel="noopener" href="https://github.com/TherealAMA">
                                 <b-icon
                                     pack="fab"
                                     icon="github"
@@ -328,7 +328,7 @@
                                 </b-icon>
                             </a>
                         <a class="is-info" style="padding:5px" data-social-network="Twitter"
-                        target="_blank" href="https://twitter.com/TheReal_AMA">
+                        target="_blank" rel="noopener" href="https://twitter.com/TheReal_AMA">
                             <b-icon
                                 icon="twitter"
                                 size="is-small">
@@ -339,7 +339,34 @@
                     </div>
                 </div>
                 <div class="column ">
-
+                    <div class="member-card">
+                        <br>
+                        <div class="member-card-image">
+                        <figure class="image is-128x128">
+                                <img class="is-rounded" src="../assets/people/issac.jpg">
+                            </figure>
+                        </div>
+                        <h1 style="font-size: 24px">Isaac Markus</h1>
+                        <img class="gdg-logo" src="../assets/logos/gdg-logo.png" alt="">
+                        <p>Minna, Nigeria</p>
+                        <p>
+                            <a  style="color: #4d4d4d; padding:5px" target="_blank" rel="noopener" href="https://github.com/isaac2020">
+                                <b-icon
+                                    pack="fab"
+                                    icon="github"
+                                    size="is-small">
+                                </b-icon>
+                            </a>
+                        <a class="is-info" style="padding:5px" data-social-network="Twitter"
+                        target="_blank" rel="noopener" href="https://twitter.com/IsaacMarcusz">
+                            <b-icon
+                                icon="twitter"
+                                size="is-small">
+                            </b-icon>
+                        </a>
+                        </p>
+                        <br>
+                    </div>
                 </div>
                 <div class="column ">
                 </div>

@@ -35,7 +35,7 @@
                     <div class="navbar-item">
                         <div class="field is-grouped">
                                 <p class="control">
-                                    <a class="button is-link is-register" href="https://bit.ly/devfestabuja18">
+                                    <a class="button is-link is-register" href="https://bit.ly/devfestabuja18" target="_blank" rel="noopener">
                                         <span>REGISTER</span>
                                     </a>
                                 </p>
