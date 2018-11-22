@@ -5,6 +5,7 @@ import Homepage from "@/components/home";
 import OurTeam from "@/components/team";
 import Schedule from "@/components/schedules";
 import Speakers from "@/components/speakers";
+import Challenge from "@/components/challenge";
 
 import "buefy/dist/buefy.css";
 import "../assets/stylesheet/style.css";
@@ -34,6 +35,11 @@ export default new Router({
       path: "/speakers",
       name: "Speakers",
       component: Speakers
+    },
+    {
+      path: "/challenge",
+      name: "Challenge",
+      component: Challenge
     }
   ]
 });

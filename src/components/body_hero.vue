@@ -7,7 +7,7 @@
                 November 24, 2018 <br>
                 Be a hero. Be a GDG!
             </div>
-            <a class="button is-medium is-link is-register" href="https://bit.ly/devfestabuja18">Register</a>
+            <a class="button is-medium is-link is-register" href="http://meetu.ps/e/FWXBY/yknR1/f">Register</a>
         </div>
     </div>
 </template>

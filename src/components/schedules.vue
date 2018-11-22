@@ -56,11 +56,11 @@
                 <div class="column">
                     <div class="card card-wrapper" @click="isRegModalActive = true">
                         <div class="card-content">
-                            <p class="schedule-title" >Attendance Registration & Check-in</p>
+                            <p class="schedule-title" >Check-in and Networking</p>
                             <p>English/Main Hall</p>
                         </div>
                         <small class="time-taken">
-                            1 hour
+                            1hr30mins
                         </small>
                         <br><br>
                     </div>
@@ -73,30 +73,7 @@
                         09
                     </span>
                     <span class="minute">
-                        00
-                    </span>
-                </div>
-                <div class="column">
-                    <div class="card card-wrapper" @click="isNetModalActive = true">
-                        <div class="card-content">
-                            <p class="schedule-title" >Networking</p>
-                            <p>English/Main Hall</p>
-                        </div>
-                        <small class="time-taken">
-                            1 hour
-                        </small>
-                        <br><br>
-                    </div>
-                </div>
-            </div>
-
-            <div class="columns">
-                <div class="column is-2 time has-text-right-desktop">
-                    <span class="hour">
-                        10
-                    </span>
-                    <span class="minute">
-                        00
+                        30
                     </span>
                 </div>
                 <div class="column">
@@ -124,9 +101,9 @@
                                             icon="account">
                                         </b-icon>
                                     </div>
-                                    <span >Auwal MS
+                                    <span >Bulama Yusuf
                                         <br>
-                                        <small>GDG Lafia / Nigeria</small>
+                                        <small>GDG Abuja / Nigeria</small>
                                     </span>
                                 </div>
                             </div>
@@ -137,7 +114,7 @@
             <div class="columns">
                 <div class="column is-2 time has-text-right-desktop">
                     <span class="hour">
-                        09
+                        10
                     </span>
                     <span class="minute">
                         30
@@ -252,7 +229,7 @@
             <div class="columns">
                 <div class="column is-2 time has-text-right-desktop">
                     <span class="hour">
-                        02
+                        05
                     </span>
                     <span class="minute">
                         00
@@ -281,42 +258,17 @@
                             <div class="container has-text-left">
                                 <img class="modal-img" src="../assets/logos/logo-white.svg" alt="">
                                 <p class="title">
-                                    Event Registration and Check-ins
+                                    Check-ins and Networking
                                 </p>
                             </div>
                         </div>
                     </section>
                 </div>
                 <div class="card-content modal-content">
-                    <h3> November 24, 08:00 - 09:00</h3>
+                    <h3> November 24, 08:00 - 09:30</h3>
                     <h3>Main Hall </h3>
                     <br>
-                    <p class="has-text-justified" style="font-size: 14px">Attendees Regitration and check-ins</p>
-                </div>
-            </div>
-        </b-modal>
-
-        <!-- Networking Modal -->
-        <b-modal :active.sync="isNetModalActive" :width="640" scroll="keep">
-            <div class="card">
-                <div class="hero is-medium">
-                    <section class="hero is-medium speaker-wrapper-general ">
-                        <!-- Hero content: will be in the middle -->
-                        <div class="hero-body">
-                            <div class="container has-text-left">
-                                <img class="modal-img" src="../assets/logos/logo-white.svg" alt="">
-                                <p class="title">
-                                    Networking
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="card-content modal-content">
-                    <h3> November 24, 09:00 - 10:00</h3>
-                    <h3>Main Hall </h3>
-                    <br>
-                    <p class="has-text-justified" style="font-size: 14px">Networking</p>
+                    <p class="has-text-justified" style="font-size: 14px">Check-ins and Networking</p>
                 </div>
             </div>
         </b-modal>
@@ -339,7 +291,7 @@
                     </section>
                 </div>
                 <div class="card-content modal-content">
-                    <h3> November 24, 1:30 - 2:00</h3>
+                    <h3> November 24, 09:30 - 10:30</h3>
                     <h3>Main Hall </h3>
                     <br>
                     <hr>
@@ -360,13 +312,13 @@
                     <div class="column">
                         <div class="media-left">
                             <figure class="image is-48x48">
-                                <img class="is-rounded" src="../assets/people/auwal.jpg" alt="Image">
+                                <img class="is-rounded" src="../assets/people/bulama.jpg" alt="Image">
                             </figure>
                         </div>
 
                         <div class="media-content">
-                            <p class="title is-6">Auwal MS</p>
-                            <p class="subtitle is-6">Intapps / Nigeria</p>
+                            <p class="title is-6">Bulama Yusuf</p>
+                            <p class="subtitle is-6">GDG Abuja / Nigeria</p>
                         </div>
                     </div>
                     </div>

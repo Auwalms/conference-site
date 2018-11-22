@@ -33,7 +33,7 @@
                         </p>
                         <br>
                         <p>
-                            <a href="">GDG North CentralDevFest</a> - is open and volunteer geek community who create exciting
+                            <a href="">GDG DevFest Abuja</a> - is open and volunteer geek community who create exciting
                             projects and share experience about Google technologies with a passion.
                         </p>
                         <br>

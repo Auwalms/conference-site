@@ -33,7 +33,6 @@ export default {
     name: "homepage",
     data(){
         return{
-            msg :"Welcome to Buefy"
         }
     },
     components : {

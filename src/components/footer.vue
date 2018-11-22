@@ -4,7 +4,7 @@
                  <h1 class="title">Be Social</h1>
                 <p>
                 Share on experience on <b-icon icon="twitter" alt="twitter logo" class="has-text-info"> </b-icon> and <b-icon icon="facebook" class="has-text-link" alt="facebook logo">
-                        </b-icon> and remember to use our hashtags(<strong>#DevfestAbuja #DEVFEST18 #GDG</strong>).
+                        </b-icon> and remember to use our hashtags( <strong>#DevfestAbuja #DEVFEST18 #GDG</strong> ).
                 </p>
             </div>
             <hr>
@@ -27,7 +27,7 @@
 
                         <div class="contact-us">
                             <h3>Contact Us</h3>
-                            <p><a href="mailto:info@ncdevfest.com">info@ncdevfest.com</a></p>
+                            <p><a href="mailto:devfestabuja@gmail.com">devfestabuja@gmail.com</a></p>
                         </div>
 
                     </div>
