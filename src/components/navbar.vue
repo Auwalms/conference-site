@@ -29,9 +29,6 @@
                     <a class="navbar-item" href="/our-team">
                         TEAM
                     </a>
-                    <a class="navbar-item" href="/challenge">
-                        CHALLENGE
-                    </a>
                     <!-- <a class="navbar-item" href="#">
                         BLOG
                     </a> -->

@@ -265,7 +265,7 @@
                     </section>
                 </div>
                 <div class="card-content modal-content">
-                    <h3> November 24, 08:00 - 09:30</h3>
+                    <h3> November 24, 09:00 - 10:00</h3>
                     <h3>Main Hall </h3>
                     <br>
                     <p class="has-text-justified" style="font-size: 14px">Check-ins and Networking</p>
@@ -291,7 +291,7 @@
                     </section>
                 </div>
                 <div class="card-content modal-content">
-                    <h3> November 24, 09:30 - 10:30</h3>
+                    <h3> November 24, 10:00 - 10:30</h3>
                     <h3>Main Hall </h3>
                     <br>
                     <hr>
