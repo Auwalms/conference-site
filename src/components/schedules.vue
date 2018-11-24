@@ -47,7 +47,7 @@
             <div class="columns">
                 <div class="column is-2 time has-text-right-desktop">
                     <span class="hour">
-                        08
+                        09
                     </span>
                     <span class="minute">
                         00
@@ -56,7 +56,7 @@
                 <div class="column">
                     <div class="card card-wrapper" @click="isRegModalActive = true">
                         <div class="card-content">
-                            <p class="schedule-title" >Check-in and Networking</p>
+                            <p class="schedule-title" >Check-in and Registration</p>
                             <p>English/Main Hall</p>
                         </div>
                         <small class="time-taken">
@@ -70,10 +70,10 @@
             <div class="columns">
                 <div class="column is-2 time has-text-right-desktop">
                     <span class="hour">
-                        09
+                        10
                     </span>
                     <span class="minute">
-                        30
+                        00
                     </span>
                 </div>
                 <div class="column">
@@ -114,10 +114,10 @@
             <div class="columns">
                 <div class="column is-2 time has-text-right-desktop">
                     <span class="hour">
-                        10
+                        11
                     </span>
                     <span class="minute">
-                        30
+                        00
                     </span>
                 </div>
                 <div class="column">
@@ -133,11 +133,34 @@
                     </div>
                 </div>
             </div>
-
+            
             <div class="columns">
                 <div class="column is-2 time has-text-right-desktop">
                     <span class="hour">
                         11
+                    </span>
+                    <span class="minute">
+                        30
+                    </span>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isNetModalActive = true">
+                        <div class="card-content">
+                            <p class="schedule-title" >Networking</p>
+                            <p>English/Main Hall</p>
+                        </div>
+                        <small class="time-taken">
+                            30 mins
+                        </small>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column is-2 time has-text-right-desktop">
+                    <span class="hour">
+                        12
                     </span>
                     <span class="minute">
                         00
@@ -146,12 +169,12 @@
                 <div class="column">
                     <div class="card card-wrapper" @click="isSessionOneModalActive = true">
                         <div class="card-content session-content">
-                            <p class="schedule-title" >Topic</p>
-                            <p>English / Difficulty / Hall</p>
+                            <p class="schedule-title" >Firebase Authentication: The Server-side Story</p>
+                            <p>English / Beginner / Hall A</p>
                         </div>
                         <small class="track-tag">
                             <b-icon icon="tag" size="is-small"></b-icon>
-                            Track
+                            Cloud
                         </small>
                         <div class="speaker-wrapper speaker-wrapper-android level">
                             <div class="level-left">
@@ -161,9 +184,9 @@
                                             icon="account">
                                         </b-icon>
                                     </div>
-                                    <span >Speaker Name
+                                    <span >Wisdom Arerosuoghene
                                         <br>
-                                        <small>Company-Chapter / Location</small>
+                                        <small>SprintHub Innovation / Porthacourt</small>
                                     </span>
                                 </div>
                             </div>
@@ -173,14 +196,14 @@
                 <div class="column">
                     <div class="card card-wrapper" @click="isSessionOneModalActive = true">
                         <div class="card-content session-content">
-                            <p class="schedule-title" >Topic</p>
-                            <p>English / Difficulty / Hall</p>
+                            <p class="schedule-title" >Building Applications For Poor Signal Locations</p>
+                            <p>English / Intermediate / Hall B</p>
                         </div>
                         <small class="track-tag">
                             <b-icon icon="tag" size="is-small"></b-icon>
-                            Track
+                            Web
                         </small>
-                        <div class="speaker-wrapper speaker-wrapper-android level">
+                        <div class="speaker-wrapper speaker-wrapper-web level">
                             <div class="level-left">
                                 <div class="speaker-detail">
                                     <div style="margin-right:10px">
@@ -188,9 +211,9 @@
                                             icon="account">
                                         </b-icon>
                                     </div>
-                                    <span >Speaker Name
+                                    <span >Asma'u Shaheedah
                                         <br>
-                                        <small>Company-Chapter / Location</small>
+                                        <small>Sugar Labs / Porthacourt</small>
                                     </span>
                                 </div>
                             </div>
@@ -200,14 +223,14 @@
                 <div class="column">
                     <div class="card card-wrapper" @click="isSessionOneModalActive = true">
                         <div class="card-content session-content">
-                            <p class="schedule-title" >Topic</p>
-                            <p>English / Difficulty / Hall</p>
+                            <p class="schedule-title" >Design with inclusion</p>
+                            <p>English / Intermediate / Hall C</p>
                         </div>
                         <small class="track-tag">
                             <b-icon icon="tag" size="is-small"></b-icon>
                             Track
                         </small>
-                        <div class="speaker-wrapper speaker-wrapper-android level">
+                        <div class="speaker-wrapper speaker-wrapper-cloud level">
                             <div class="level-left">
                                 <div class="speaker-detail">
                                     <div style="margin-right:10px">
@@ -215,9 +238,9 @@
                                             icon="account">
                                         </b-icon>
                                     </div>
-                                    <span >Speaker Name
+                                    <span >Peace Ojemeh
                                         <br>
-                                        <small>Company-Chapter / Location</small>
+                                        <small>Abuja / Nigeria</small>
                                     </span>
                                 </div>
                             </div>
@@ -229,10 +252,401 @@
             <div class="columns">
                 <div class="column is-2 time has-text-right-desktop">
                     <span class="hour">
-                        05
+                        12
+                    </span>
+                    <span class="minute">
+                        45
+                    </span>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
+                        <div class="card-content session-content">
+                            <p class="schedule-title" >Architecting Android Apps the Clean Way</p>
+                            <p>English / Intermediate / Hall A</p>
+                        </div>
+                        <small class="track-tag">
+                            <b-icon icon="tag" size="is-small"></b-icon>
+                            Cloud
+                        </small>
+                        <div class="speaker-wrapper speaker-wrapper-android level">
+                            <div class="level-left">
+                                <div class="speaker-detail">
+                                    <div style="margin-right:10px">
+                                        <b-icon
+                                            icon="account">
+                                        </b-icon>
+                                    </div>
+                                    <span >Chizoba Ogbonna 
+                                        <br>
+                                        <small>Paylater / Lagos</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
+                        <div class="card-content session-content">
+                            <p class="schedule-title" >Application State Design for Web Applications</p>
+                            <p>English / Intermediate / Hall B</p>
+                        </div>
+                        <small class="track-tag">
+                            <b-icon icon="tag" size="is-small"></b-icon>
+                            Web
+                        </small>
+                        <div class="speaker-wrapper speaker-wrapper-web level">
+                            <div class="level-left">
+                                <div class="speaker-detail">
+                                    <div style="margin-right:10px">
+                                        <b-icon
+                                            icon="account">
+                                        </b-icon>
+                                    </div>
+                                    <span >Ifeora Okechukwu
+                                        <br>
+                                        <small>Oparand / Abuja</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
+                        <div class="card-content session-content">
+                            <p class="schedule-title" >Machine Learning with tf.keras</p>
+                            <p>English / Intermediate / Hall C</p>
+                        </div>
+                        <small class="track-tag">
+                            <b-icon icon="tag" size="is-small"></b-icon>
+                            Track
+                        </small>
+                        <div class="speaker-wrapper speaker-wrapper-cloud level">
+                            <div class="level-left">
+                                <div class="speaker-detail">
+                                    <div style="margin-right:10px">
+                                        <b-icon
+                                            icon="account">
+                                        </b-icon>
+                                    </div>
+                                    <span >Robert John
+                                        <br>
+                                        <small>EnterFive / Kaduna</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="columns">
+                <div class="column is-2 time has-text-right-desktop">
+                    <span class="hour">
+                        01
+                    </span>
+                    <span class="minute">
+                        30
+                    </span>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isRegModalActive = true">
+                        <div class="card-content">
+                            <p class="schedule-title" >LUNCH</p>
+                        </div>
+                        <small class="time-taken">
+                            1 hour
+                        </small>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column is-2 time has-text-right-desktop">
+                    <span class="hour">
+                        02
+                    </span>
+                    <span class="minute">
+                        30
+                    </span>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
+                        <div class="card-content session-content">
+                            <p class="schedule-title" >Winning with Android Architecture Components</p>
+                            <p>English / Intermediate / Hall A</p>
+                        </div>
+                        <small class="track-tag">
+                            <b-icon icon="tag" size="is-small"></b-icon>
+                            Cloud
+                        </small>
+                        <div class="speaker-wrapper speaker-wrapper-android level">
+                            <div class="level-left">
+                                <div class="speaker-detail">
+                                    <div style="margin-right:10px">
+                                        <b-icon
+                                            icon="account">
+                                        </b-icon>
+                                    </div>
+                                    <span >Belvi Nosakhare 
+                                        <br>
+                                        <small>Intelia / Lagos</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
+                        <div class="card-content session-content">
+                            <p class="schedule-title" >Build Modern Web Applications with Webpack</p>
+                            <p>English / Beginner / Hall B</p>
+                        </div>
+                        <small class="track-tag">
+                            <b-icon icon="tag" size="is-small"></b-icon>
+                            Web
+                        </small>
+                        <div class="speaker-wrapper speaker-wrapper-web level">
+                            <div class="level-left">
+                                <div class="speaker-detail">
+                                    <div style="margin-right:10px">
+                                        <b-icon
+                                            icon="account">
+                                        </b-icon>
+                                    </div>
+                                    <span >Samuel Omole
+                                        <br>
+                                        <small>Software Engineer / Abuja</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
+                        <div class="card-content session-content">
+                            <p class="schedule-title" >Managing your Digital Wellbeing</p>
+                            <p>English / Intermediate / Hall C</p>
+                        </div>
+                        <small class="track-tag">
+                            <b-icon icon="tag" size="is-small"></b-icon>
+                            Track
+                        </small>
+                        <div class="speaker-wrapper speaker-wrapper-cloud level">
+                            <div class="level-left">
+                                <div class="speaker-detail">
+                                    <div style="margin-right:10px">
+                                        <b-icon
+                                            icon="account">
+                                        </b-icon>
+                                    </div>
+                                    <span >Jeremiah Jacob
+                                        <br>
+                                        <small>DSC Lead / IBB University</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column is-2 time has-text-right-desktop">
+                    <span class="hour">
+                        03
+                    </span>
+                    <span class="minute">
+                        15
+                    </span>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
+                        <div class="card-content session-content">
+                            <p class="schedule-title" >Background Work with WorkManager - Kotlin</p>
+                            <p>English / Intermediate / Hall A</p>
+                        </div>
+                        <small class="track-tag">
+                            <b-icon icon="tag" size="is-small"></b-icon>
+                            Cloud
+                        </small>
+                        <div class="speaker-wrapper speaker-wrapper-android level">
+                            <div class="level-left">
+                                <div class="speaker-detail">
+                                    <div style="margin-right:10px">
+                                        <b-icon
+                                            icon="account">
+                                        </b-icon>
+                                    </div>
+                                    <span >Nsikak Thompson 
+                                        <br>
+                                        <small>Start Innovation Hub & Alta Labs / Uyo</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
+                        <div class="card-content session-content">
+                            <p class="schedule-title" >Intro to Angular and What's new in Angular 7</p>
+                            <p>English / Beginner / Hall B</p>
+                        </div>
+                        <small class="track-tag">
+                            <b-icon icon="tag" size="is-small"></b-icon>
+                            Web
+                        </small>
+                        <div class="speaker-wrapper speaker-wrapper-web level">
+                            <div class="level-left">
+                                <div class="speaker-detail">
+                                    <div style="margin-right:10px">
+                                        <b-icon
+                                            icon="account">
+                                        </b-icon>
+                                    </div>
+                                    <span >Hamza Bashir
+                                        <br>
+                                        <small>Intellectual Apps / Abuja</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
+                        <div class="card-content session-content">
+                            <p class="schedule-title" >Essential Principles Every UI/UX Designer should Know</p>
+                            <p>English / Intermediate / Hall C</p>
+                        </div>
+                        <small class="track-tag">
+                            <b-icon icon="tag" size="is-small"></b-icon>
+                            Track
+                        </small>
+                        <div class="speaker-wrapper speaker-wrapper-cloud level">
+                            <div class="level-left">
+                                <div class="speaker-detail">
+                                    <div style="margin-right:10px">
+                                        <b-icon
+                                            icon="account">
+                                        </b-icon>
+                                    </div>
+                                    <span >Habeeb Bombata
+                                        <br>
+                                        <small>Verifi / Lagos</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column is-2 time has-text-right-desktop">
+                    <span class="hour">
+                        04
                     </span>
                     <span class="minute">
                         00
+                    </span>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
+                        <div class="card-content session-content">
+                            <p class="schedule-title" >The Flutter revolution - Recipe for building apps without pain.</p>
+                            <p>English / Beginner / Hall A</p>
+                        </div>
+                        <small class="track-tag">
+                            <b-icon icon="tag" size="is-small"></b-icon>
+                            Cloud
+                        </small>
+                        <div class="speaker-wrapper speaker-wrapper-android level">
+                            <div class="level-left">
+                                <div class="speaker-detail">
+                                    <div style="margin-right:10px">
+                                        <b-icon
+                                            icon="account">
+                                        </b-icon>
+                                    </div>
+                                    <span >Shuaib Afegbua 
+                                        <br>
+                                        <small>Ectorium & Code Kraft / Abuja</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
+                        <div class="card-content session-content">
+                            <p class="schedule-title" >Much ado about Web Components</p>
+                            <p>English / Intermediate / Hall B</p>
+                        </div>
+                        <small class="track-tag">
+                            <b-icon icon="tag" size="is-small"></b-icon>
+                            Web
+                        </small>
+                        <div class="speaker-wrapper speaker-wrapper-web level">
+                            <div class="level-left">
+                                <div class="speaker-detail">
+                                    <div style="margin-right:10px">
+                                        <b-icon
+                                            icon="account">
+                                        </b-icon>
+                                    </div>
+                                    <span >Adaobi Frank
+                                        <br>
+                                        <small>Modus Create / Abuja</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
+                        <div class="card-content session-content">
+                            <p class="schedule-title" >Deep Learning at a glance</p>
+                            <p>English / Intermediate / Hall C</p>
+                        </div>
+                        <small class="track-tag">
+                            <b-icon icon="tag" size="is-small"></b-icon>
+                            Track
+                        </small>
+                        <div class="speaker-wrapper speaker-wrapper-cloud level">
+                            <div class="level-left">
+                                <div class="speaker-detail">
+                                    <div style="margin-right:10px">
+                                        <b-icon
+                                            icon="account">
+                                        </b-icon>
+                                    </div>
+                                    <span >Banso God'sWisdom Daniel
+                                        <br>
+                                        <small>Cashcrow / Abuja</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column is-2 time has-text-right-desktop">
+                    <span class="hour">
+                        04
+                    </span>
+                    <span class="minute">
+                        45
                     </span>
                 </div>
                 <div class="column">
@@ -246,125 +660,6 @@
             </div>
         </section>
 
-        <!-- Modal Section -->
-
-        <!-- Registration modal -->
-        <b-modal :active.sync="isRegModalActive" :width="640" scroll="keep">
-            <div class="card">
-                <div class="hero is-medium">
-                    <section class="hero is-medium speaker-wrapper-general ">
-                        <!-- Hero content: will be in the middle -->
-                        <div class="hero-body">
-                            <div class="container has-text-left">
-                                <img class="modal-img" src="../assets/logos/logo-white.svg" alt="">
-                                <p class="title">
-                                    Check-ins and Networking
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="card-content modal-content">
-                    <h3> November 24, 09:00 - 10:00</h3>
-                    <h3>Main Hall </h3>
-                    <br>
-                    <p class="has-text-justified" style="font-size: 14px">Check-ins and Networking</p>
-                </div>
-            </div>
-        </b-modal>
-
-        <!-- Keynote Modal -->
-
-        <b-modal :active.sync="isKeynoteModalActive" :width="640" scroll="keep">
-            <div class="card">
-                <div class="hero is-medium">
-                    <section class="hero is-medium speaker-wrapper-general ">
-                        <!-- Hero content: will be in the middle -->
-                        <div class="hero-body">
-                            <div class="container ">
-                                <img class="modal-img" src="../assets/logos/logo-white.svg" alt="">
-                                <p class="title">
-                                    Keynote
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="card-content modal-content">
-                    <h3> November 24, 10:00 - 10:30</h3>
-                    <h3>Main Hall </h3>
-                    <br>
-                    <hr>
-                    <h1 style="padding-bottom: 10px;">Speakers</h1>
-                    <div class="media columns">
-                    <div class=" column">
-                        <div class="media-left">
-                            <figure class="image is-48x48">
-                                <img class="is-rounded" src="../assets/people/fola.jpeg" alt="Image">
-                            </figure>
-                        </div>
-
-                        <div class="media-content">
-                            <p class="title is-6">Fola Olatunji-David</p>
-                            <p class="subtitle is-6">Google / Nigeria</p>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="media-left">
-                            <figure class="image is-48x48">
-                                <img class="is-rounded" src="../assets/people/bulama.jpg" alt="Image">
-                            </figure>
-                        </div>
-
-                        <div class="media-content">
-                            <p class="title is-6">Bulama Yusuf</p>
-                            <p class="subtitle is-6">GDG Abuja / Nigeria</p>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </b-modal>
-
-        <!-- session one modal -->
-        <b-modal :active.sync="isSessionOneModalActive" :width="640" scroll="keep">
-            <div class="card">
-                <div class="hero is-medium">
-                    <section class="hero is-medium speaker-wrapper-android ">
-                        <!-- Hero content: will be in the middle -->
-                        <div class="hero-body">
-                            <div class="container ">
-                                <img class="modal-img" src="../assets/logos/logo-white.svg" alt="">
-                                <p class="title">
-                                    Session Topic
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="card-content modal-content">
-                    <h3> November 24, Time</h3>
-                    <h3>Hall </h3>
-                    <h3>Content Level: </h3>
-                    <br>
-                    <p class="has-text-justified" style="font-size: 14px">Talk Summary</p>
-                    <hr>
-                    <h1 style="padding-bottom: 10px;">Speaker</h1>
-                    <div class="media">
-                        <div class="media-left">
-                            <figure class="image is-48x48">
-                                <img class="is-rounded" src="../assets/people/auwal.jpg" alt="Image">
-                            </figure>
-                        </div>
-
-                        <div class="media-content">
-                            <p class="title is-6">Speaker Name</p>
-                            <p class="subtitle is-6">Company-Chapter / Location</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </b-modal>
         <div>
             <Pagefooter/>
         </div>
