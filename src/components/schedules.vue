@@ -60,7 +60,7 @@
                             <p>English/Main Hall</p>
                         </div>
                         <small class="time-taken">
-                            1hr30mins
+                            1 Hour
                         </small>
                         <br><br>
                     </div>
@@ -133,7 +133,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="columns">
                 <div class="column is-2 time has-text-right-desktop">
                     <span class="hour">
@@ -213,7 +213,7 @@
                                     </div>
                                     <span >Asma'u Shaheedah
                                         <br>
-                                        <small>Sugar Labs / Porthacourt</small>
+                                        <small>Fullstack Developer/Abuja</small>
                                     </span>
                                 </div>
                             </div>
@@ -228,7 +228,7 @@
                         </div>
                         <small class="track-tag">
                             <b-icon icon="tag" size="is-small"></b-icon>
-                            Track
+                            UI/UX
                         </small>
                         <div class="speaker-wrapper speaker-wrapper-cloud level">
                             <div class="level-left">
@@ -240,7 +240,7 @@
                                     </div>
                                     <span >Peace Ojemeh
                                         <br>
-                                        <small>Abuja / Nigeria</small>
+                                        <small>Sugar Labs / Porthacourt</small>
                                     </span>
                                 </div>
                             </div>
@@ -276,7 +276,7 @@
                                             icon="account">
                                         </b-icon>
                                     </div>
-                                    <span >Chizoba Ogbonna 
+                                    <span >Chizoba Ogbonna
                                         <br>
                                         <small>Paylater / Lagos</small>
                                     </span>
@@ -320,7 +320,7 @@
                         </div>
                         <small class="track-tag">
                             <b-icon icon="tag" size="is-small"></b-icon>
-                            Track
+                            AI/ML
                         </small>
                         <div class="speaker-wrapper speaker-wrapper-cloud level">
                             <div class="level-left">
@@ -341,7 +341,7 @@
                 </div>
             </div>
 
-            
+
             <div class="columns">
                 <div class="column is-2 time has-text-right-desktop">
                     <span class="hour">
@@ -363,7 +363,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="columns">
                 <div class="column is-2 time has-text-right-desktop">
                     <span class="hour">
@@ -371,6 +370,98 @@
                     </span>
                     <span class="minute">
                         30
+                    </span>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
+                        <div class="card-content session-content">
+                            <p class="schedule-title" >The Flutter revolution - Recipe for building apps without pain.</p>
+                            <p>English / Beginner / Hall A</p>
+                        </div>
+                        <small class="track-tag">
+                            <b-icon icon="tag" size="is-small"></b-icon>
+                            Cloud
+                        </small>
+                        <div class="speaker-wrapper speaker-wrapper-android level">
+                            <div class="level-left">
+                                <div class="speaker-detail">
+                                    <div style="margin-right:10px">
+                                        <b-icon
+                                            icon="account">
+                                        </b-icon>
+                                    </div>
+                                    <span >Shuaib Afegbua
+                                        <br>
+                                        <small>Ectorium & Code Kraft / Abuja</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
+                        <div class="card-content session-content">
+                            <p class="schedule-title" >Much ado about Web Components</p>
+                            <p>English / Intermediate / Hall B</p>
+                        </div>
+                        <small class="track-tag">
+                            <b-icon icon="tag" size="is-small"></b-icon>
+                            Web
+                        </small>
+                        <div class="speaker-wrapper speaker-wrapper-web level">
+                            <div class="level-left">
+                                <div class="speaker-detail">
+                                    <div style="margin-right:10px">
+                                        <b-icon
+                                            icon="account">
+                                        </b-icon>
+                                    </div>
+                                    <span >Adaobi Frank
+                                        <br>
+                                        <small>Modus Create / Abuja</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
+                        <div class="card-content session-content">
+                            <p class="schedule-title" >Essential Principles Every UI/UX Designer should Know</p>
+                            <p>English / Intermediate / Hall C</p>
+                        </div>
+                        <small class="track-tag">
+                            <b-icon icon="tag" size="is-small"></b-icon>
+                            UI/UX
+                        </small>
+                        <div class="speaker-wrapper speaker-wrapper-cloud level">
+                            <div class="level-left">
+                                <div class="speaker-detail">
+                                    <div style="margin-right:10px">
+                                        <b-icon
+                                            icon="account">
+                                        </b-icon>
+                                    </div>
+                                    <span >Habeeb Bombata
+                                        <br>
+                                        <small>Verifi / Lagos</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column is-2 time has-text-right-desktop">
+                    <span class="hour">
+                        03
+                    </span>
+                    <span class="minute">
+                        15
                     </span>
                 </div>
                 <div class="column">
@@ -391,7 +482,7 @@
                                             icon="account">
                                         </b-icon>
                                     </div>
-                                    <span >Belvi Nosakhare 
+                                    <span >Belvi Nosakhare
                                         <br>
                                         <small>Intelia / Lagos</small>
                                     </span>
@@ -435,7 +526,7 @@
                         </div>
                         <small class="track-tag">
                             <b-icon icon="tag" size="is-small"></b-icon>
-                            Track
+                            Community
                         </small>
                         <div class="speaker-wrapper speaker-wrapper-cloud level">
                             <div class="level-left">
@@ -459,10 +550,10 @@
             <div class="columns">
                 <div class="column is-2 time has-text-right-desktop">
                     <span class="hour">
-                        03
+                        04
                     </span>
                     <span class="minute">
-                        15
+                        00
                     </span>
                 </div>
                 <div class="column">
@@ -483,7 +574,7 @@
                                             icon="account">
                                         </b-icon>
                                     </div>
-                                    <span >Nsikak Thompson 
+                                    <span >Nsikak Thompson
                                         <br>
                                         <small>Start Innovation Hub & Alta Labs / Uyo</small>
                                     </span>
@@ -519,99 +610,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column">
-                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
-                        <div class="card-content session-content">
-                            <p class="schedule-title" >Essential Principles Every UI/UX Designer should Know</p>
-                            <p>English / Intermediate / Hall C</p>
-                        </div>
-                        <small class="track-tag">
-                            <b-icon icon="tag" size="is-small"></b-icon>
-                            Track
-                        </small>
-                        <div class="speaker-wrapper speaker-wrapper-cloud level">
-                            <div class="level-left">
-                                <div class="speaker-detail">
-                                    <div style="margin-right:10px">
-                                        <b-icon
-                                            icon="account">
-                                        </b-icon>
-                                    </div>
-                                    <span >Habeeb Bombata
-                                        <br>
-                                        <small>Verifi / Lagos</small>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="columns">
-                <div class="column is-2 time has-text-right-desktop">
-                    <span class="hour">
-                        04
-                    </span>
-                    <span class="minute">
-                        00
-                    </span>
-                </div>
-                <div class="column">
-                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
-                        <div class="card-content session-content">
-                            <p class="schedule-title" >The Flutter revolution - Recipe for building apps without pain.</p>
-                            <p>English / Beginner / Hall A</p>
-                        </div>
-                        <small class="track-tag">
-                            <b-icon icon="tag" size="is-small"></b-icon>
-                            Cloud
-                        </small>
-                        <div class="speaker-wrapper speaker-wrapper-android level">
-                            <div class="level-left">
-                                <div class="speaker-detail">
-                                    <div style="margin-right:10px">
-                                        <b-icon
-                                            icon="account">
-                                        </b-icon>
-                                    </div>
-                                    <span >Shuaib Afegbua 
-                                        <br>
-                                        <small>Ectorium & Code Kraft / Abuja</small>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card card-wrapper" @click="isSessionOneModalActive = true">
-                        <div class="card-content session-content">
-                            <p class="schedule-title" >Much ado about Web Components</p>
-                            <p>English / Intermediate / Hall B</p>
-                        </div>
-                        <small class="track-tag">
-                            <b-icon icon="tag" size="is-small"></b-icon>
-                            Web
-                        </small>
-                        <div class="speaker-wrapper speaker-wrapper-web level">
-                            <div class="level-left">
-                                <div class="speaker-detail">
-                                    <div style="margin-right:10px">
-                                        <b-icon
-                                            icon="account">
-                                        </b-icon>
-                                    </div>
-                                    <span >Adaobi Frank
-                                        <br>
-                                        <small>Modus Create / Abuja</small>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
+                 <div class="column">
                     <div class="card card-wrapper" @click="isSessionOneModalActive = true">
                         <div class="card-content session-content">
                             <p class="schedule-title" >Deep Learning at a glance</p>
@@ -619,7 +618,7 @@
                         </div>
                         <small class="track-tag">
                             <b-icon icon="tag" size="is-small"></b-icon>
-                            Track
+                            AI/ML
                         </small>
                         <div class="speaker-wrapper speaker-wrapper-cloud level">
                             <div class="level-left">
@@ -639,6 +638,8 @@
                     </div>
                 </div>
             </div>
+
+
 
             <div class="columns">
                 <div class="column is-2 time has-text-right-desktop">
